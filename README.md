@@ -1,4 +1,4 @@
-# Readme for X15-ESC_Adapter
+# Readme for X15-ESC-Adapter
 
 Whenever you make a new part, download the datasheet and save it here _**and**_ with the part in the parts library
 
