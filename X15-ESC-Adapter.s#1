@@ -142,26 +142,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="3.75" x2="6.955" y2="3.75" width="0.1524" layer="21"/>
 <wire x1="6.955" y1="3.75" x2="6.955" y2="6.955" width="0.1524" layer="21"/>
 </package>
-<package name="LUMENIER">
-<wire x1="-8.89" y1="6.35" x2="-8.89" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-6.35" x2="8.89" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="-6.35" x2="8.89" y2="6.35" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="6.35" x2="-8.89" y2="6.35" width="0.1524" layer="21"/>
-<smd name="P$1" x="0" y="6.35" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$2" x="-8.89" y="5.08" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$3" x="-8.89" y="3.81" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$4" x="-8.89" y="2.54" dx="1.27" dy="0.635" layer="1" rot="R180"/>
-<smd name="P$5" x="8.89" y="5.08" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$6" x="8.89" y="3.81" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$7" x="8.89" y="2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$8" x="0" y="-6.35" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$9" x="-8.89" y="-1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$10" x="-8.89" y="-2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$11" x="-8.89" y="-3.81" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$12" x="8.89" y="-1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$13" x="8.89" y="-2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$14" x="8.89" y="-3.81" dx="1.27" dy="0.635" layer="1"/>
-</package>
 </packages>
 <symbols>
 <symbol name="IPBT-103-H1-T-S">
@@ -173,27 +153,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="10.16" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
 <text x="0" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="LUMENIER">
-<pin name="M2P2" x="-5.08" y="5.08" length="middle"/>
-<pin name="M2P3" x="-5.08" y="2.54" length="middle"/>
-<pin name="M2P1" x="-5.08" y="7.62" length="middle"/>
-<wire x1="0" y1="0" x2="25.4" y2="0" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="20.32" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="20.32" width="0.1524" layer="94"/>
-<wire x1="0" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="94"/>
-<pin name="M1P3" x="-5.08" y="12.7" length="middle"/>
-<pin name="M1P2" x="-5.08" y="15.24" length="middle"/>
-<pin name="M1P1" x="-5.08" y="17.78" length="middle"/>
-<pin name="M4P3" x="30.48" y="2.54" length="middle" rot="R180"/>
-<pin name="M4P2" x="30.48" y="5.08" length="middle" rot="R180"/>
-<pin name="M4P1" x="30.48" y="7.62" length="middle" rot="R180"/>
-<pin name="M3P3" x="30.48" y="12.7" length="middle" rot="R180"/>
-<pin name="M3P2" x="30.48" y="15.24" length="middle" rot="R180"/>
-<pin name="M3P1" x="30.48" y="17.78" length="middle" rot="R180"/>
-<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R90"/>
-<pin name="VIN" x="12.7" y="25.4" length="middle" rot="R270"/>
-<text x="0" y="20.32" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -216,26 +175,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 <deviceset name="LUMENIER">
 <gates>
-<gate name="G$1" symbol="LUMENIER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LUMENIER">
-<connects>
-<connect gate="G$1" pin="GND" pad="P$8"/>
-<connect gate="G$1" pin="M1P1" pad="P$2"/>
-<connect gate="G$1" pin="M1P2" pad="P$3"/>
-<connect gate="G$1" pin="M1P3" pad="P$4"/>
-<connect gate="G$1" pin="M2P1" pad="P$9"/>
-<connect gate="G$1" pin="M2P2" pad="P$10"/>
-<connect gate="G$1" pin="M2P3" pad="P$11"/>
-<connect gate="G$1" pin="M3P1" pad="P$5"/>
-<connect gate="G$1" pin="M3P2" pad="P$6"/>
-<connect gate="G$1" pin="M3P3" pad="P$7"/>
-<connect gate="G$1" pin="M4P1" pad="P$12"/>
-<connect gate="G$1" pin="M4P2" pad="P$13"/>
-<connect gate="G$1" pin="M4P3" pad="P$14"/>
-<connect gate="G$1" pin="VIN" pad="P$1"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -260,7 +202,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J2" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device=""/>
 <part name="J1" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device=""/>
 <part name="U$1" library="X15-ESC-Adapter" deviceset="LUMENIER" device=""/>
-<part name="LUMENIER" library="X15-ESC-Adapter" deviceset="LUMENIER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -284,169 +225,92 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J1" gate="G$1" x="106.68" y="96.52" smashed="yes" rot="MR0">
 <attribute name="NAME" x="106.68" y="106.68" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="LUMENIER" gate="G$1" x="152.4" y="91.44" smashed="yes">
-<attribute name="NAME" x="152.4" y="111.76" size="1.778" layer="95"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="ESC3_R" class="0">
+<net name="N$1" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
-<label x="76.2" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M3P1"/>
-<wire x1="182.88" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
-<label x="185.42" y="109.22" size="1.27" layer="95" xref="yes"/>
+<label x="76.2" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESC3_Y" class="0">
+<net name="N$2" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<label x="76.2" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M3P2"/>
-<wire x1="182.88" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="185.42" y="106.68" size="1.27" layer="95" xref="yes"/>
+<label x="76.2" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESC3_B" class="0">
+<net name="N$3" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="76.2" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M3P3"/>
-<wire x1="182.88" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
-<label x="185.42" y="104.14" size="1.27" layer="95" xref="yes"/>
+<label x="76.2" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESC4_R" class="0">
+<net name="N$4" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
-<label x="76.2" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M4P1"/>
-<wire x1="182.88" y1="99.06" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
-<label x="185.42" y="99.06" size="1.27" layer="95" xref="yes"/>
+<label x="76.2" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESC4_Y" class="0">
+<net name="N$5" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="76.2" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M4P2"/>
-<wire x1="182.88" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
-<label x="185.42" y="96.52" size="1.27" layer="95" xref="yes"/>
+<label x="76.2" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESC4_B" class="0">
+<net name="N$6" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<label x="76.2" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M4P3"/>
-<wire x1="182.88" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
-<label x="185.42" y="93.98" size="1.27" layer="95" xref="yes"/>
+<label x="76.2" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESC1_B" class="0">
+<net name="N$9" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="111.76" y1="99.06" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
-<label x="114.3" y="99.06" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M1P3"/>
-<wire x1="147.32" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
-<label x="144.78" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESC2_R" class="0">
+<net name="N$10" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
-<label x="114.3" y="88.9" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M2P1"/>
-<wire x1="147.32" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
-<label x="144.78" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="88.9" size="1.778" layer="95" xref="yes"/>
+<label x="114.3" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ESC2_Y" class="0">
+<net name="N$11" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
-<label x="114.3" y="86.36" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M2P2"/>
-<wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
-<label x="144.78" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ESC2_B" class="0">
+<net name="N$12" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="111.76" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="114.3" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M2P3"/>
-<wire x1="147.32" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
-<label x="144.78" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ESC1_R" class="0">
+<net name="N$7" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
-<label x="114.3" y="104.14" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M1P1"/>
-<wire x1="147.32" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<label x="144.78" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="114.3" y="99.06" size="1.778" layer="95" xref="yes"/>
+<label x="114.3" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ESC1_Y" class="0">
+<net name="N$8" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
-<label x="114.3" y="101.6" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="M1P2"/>
-<wire x1="147.32" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
-<label x="144.78" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="GND"/>
-<wire x1="165.1" y1="86.36" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="165.1" y="83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="LUMENIER" gate="G$1" pin="VIN"/>
-<wire x1="165.1" y1="116.84" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
-<label x="165.1" y="119.38" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="114.3" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
