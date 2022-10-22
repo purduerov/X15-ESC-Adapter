@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -346,7 +346,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -864,6 +864,54 @@ design rules under a new name.</description>
 <vertex x="50.0126" y="23.9522"/>
 <vertex x="50.0126" y="42.926"/>
 </polygon>
+</signal>
+<signal name="N$1">
+<via x="40.5892" y="29.6164" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$2">
+<via x="40.9194" y="31.877" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$3">
+<via x="43.815" y="34.29" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$4">
+<via x="46.3042" y="33.274" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$5">
+<via x="48.641" y="33.782" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$6">
+<via x="42.8498" y="29.464" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$7">
+<via x="46.0502" y="28.702" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$8">
+<via x="42.3418" y="31.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$9">
+<via x="52.197" y="34.2392" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$10">
+<via x="53.8226" y="32.9946" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$11">
+<via x="56.4642" y="34.036" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$12">
+<via x="56.9722" y="33.0962" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$13">
+<via x="59.0042" y="29.21" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$14">
+<via x="56.1086" y="28.448" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$15">
+<via x="53.1622" y="28.3718" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$16">
+<via x="58.9534" y="27.432" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
