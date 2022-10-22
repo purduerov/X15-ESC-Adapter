@@ -377,7 +377,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="15mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -554,7 +554,7 @@ design rules under a new name.</description>
 <element name="J2" library="X15-ESC-Adapter" package="IPBT-103-H1-T-S" value="IPBT-103-H1-T-S" x="13.97" y="6.985" smashed="yes" rot="R90"/>
 <element name="J3" library="X15-ESC-Adapter" package="IPBT-103-H1-T-S" value="IPBT-103-H1-T-S" x="87.63" y="27.6352" smashed="yes" rot="R270"/>
 <element name="J4" library="X15-ESC-Adapter" package="IPBT-103-H1-T-S" value="IPBT-103-H1-T-S" x="87.6554" y="6.985" smashed="yes" rot="R270"/>
-<element name="LUMENIER_ESC" library="X15-ESC-Adapter" package="LUMENIER" package3d_urn="urn:adsk.eagle:package:24294694/3" value="LUMENIER" x="27.66" y="0.1892" smashed="yes"/>
+<element name="LUMENIER_ESC" library="X15-ESC-Adapter" package="LUMENIER" package3d_urn="urn:adsk.eagle:package:24294694/3" value="LUMENIER" x="27.813" y="0.508" smashed="yes"/>
 </elements>
 <signals>
 <signal name="ESC3_R">
@@ -572,9 +572,9 @@ design rules under a new name.</description>
 <vertex x="104.8766" y="17.2974"/>
 <vertex x="104.8766" y="24.511"/>
 </polygon>
-<wire x1="73.66" y1="19.6692" x2="75.2506" y2="21.2598" width="2.54" layer="1"/>
+<wire x1="73.813" y1="19.988" x2="75.2506" y2="21.2598" width="2.54" layer="1"/>
 <wire x1="75.2506" y1="21.2598" x2="78.5114" y2="21.2598" width="2.54" layer="1"/>
-<wire x1="73.66" y1="19.6692" x2="75.3522" y2="21.3614" width="2.54" layer="16"/>
+<wire x1="73.813" y1="19.988" x2="75.3522" y2="21.3614" width="2.54" layer="16"/>
 <wire x1="75.3522" y1="21.3614" x2="78.3082" y2="21.3614" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC3_Y">
@@ -592,9 +592,9 @@ design rules under a new name.</description>
 <vertex x="103.0986" y="25.7302"/>
 <vertex x="103.0986" y="28.5242"/>
 </polygon>
-<wire x1="73.66" y1="25.2392" x2="75.5734" y2="27.1526" width="2.54" layer="1"/>
+<wire x1="73.813" y1="25.558" x2="75.5734" y2="27.1526" width="2.54" layer="1"/>
 <wire x1="75.5734" y1="27.1526" x2="78.4098" y2="27.1526" width="2.54" layer="1"/>
-<wire x1="73.66" y1="25.2392" x2="75.6496" y2="27.2288" width="2.54" layer="16"/>
+<wire x1="73.813" y1="25.558" x2="75.6496" y2="27.2288" width="2.54" layer="16"/>
 <wire x1="75.6496" y1="27.2288" x2="78.3082" y2="27.2288" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC3_B">
@@ -616,10 +616,10 @@ design rules under a new name.</description>
 <vertex x="103.3272" y="29.8196"/>
 <vertex x="103.3272" y="43.1292"/>
 </polygon>
-<wire x1="73.66" y1="30.8092" x2="75.0072" y2="32.1564" width="2.54" layer="1"/>
-<wire x1="75.0072" y1="32.1564" x2="79.502" y2="32.1564" width="2.54" layer="1"/>
-<wire x1="73.66" y1="30.8092" x2="75.1088" y2="32.258" width="2.54" layer="16"/>
-<wire x1="75.1088" y1="32.258" x2="79.4004" y2="32.258" width="2.54" layer="16"/>
+<wire x1="73.813" y1="31.128" x2="75.0834" y2="32.2326" width="2.54" layer="1"/>
+<wire x1="75.0834" y1="32.2326" x2="77.1144" y2="32.2326" width="2.54" layer="1"/>
+<wire x1="73.813" y1="31.128" x2="75.0326" y2="32.1818" width="2.54" layer="16"/>
+<wire x1="75.0326" y1="32.1818" x2="77.1144" y2="32.1818" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC4_R">
 <contactref element="LUMENIER_ESC" pad="7"/>
@@ -636,9 +636,9 @@ design rules under a new name.</description>
 <vertex x="105.283" y="-2.1336"/>
 <vertex x="105.283" y="3.8608"/>
 </polygon>
-<wire x1="73.66" y1="2.9692" x2="77.3404" y2="2.9692" width="2.54" layer="1"/>
+<wire x1="73.813" y1="3.288" x2="77.3404" y2="2.9692" width="2.54" layer="1"/>
 <wire x1="77.3404" y1="2.9692" x2="77.4192" y2="3.048" width="2.54" layer="1"/>
-<wire x1="73.66" y1="2.9692" x2="77.5436" y2="2.9692" width="2.54" layer="16"/>
+<wire x1="73.813" y1="3.288" x2="77.5436" y2="2.9692" width="2.54" layer="16"/>
 <wire x1="77.5436" y1="2.9692" x2="77.5462" y2="2.9718" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC4_Y">
@@ -656,10 +656,10 @@ design rules under a new name.</description>
 <vertex x="105.1052" y="5.0292"/>
 <vertex x="105.1052" y="8.3058"/>
 </polygon>
-<wire x1="73.66" y1="8.5392" x2="75.519" y2="6.6802" width="2.54" layer="1"/>
-<wire x1="75.519" y1="6.6802" x2="77.8002" y2="6.6802" width="2.54" layer="1"/>
-<wire x1="73.66" y1="8.5392" x2="75.4682" y2="6.731" width="2.54" layer="16"/>
-<wire x1="75.4682" y1="6.731" x2="77.5462" y2="6.731" width="2.54" layer="16"/>
+<wire x1="73.813" y1="8.858" x2="76.194" y2="6.477" width="2.54" layer="1"/>
+<wire x1="76.194" y1="6.477" x2="78.3844" y2="6.477" width="2.54" layer="1"/>
+<wire x1="73.813" y1="8.858" x2="76.1432" y2="6.5278" width="2.54" layer="16"/>
+<wire x1="76.1432" y1="6.5278" x2="78.4352" y2="6.5278" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC4_B">
 <contactref element="LUMENIER_ESC" pad="9"/>
@@ -676,9 +676,9 @@ design rules under a new name.</description>
 <vertex x="104.7496" y="9.6012"/>
 <vertex x="104.7496" y="15.9766"/>
 </polygon>
-<wire x1="73.66" y1="14.1092" x2="74.7898" y2="12.9794" width="2.54" layer="1"/>
+<wire x1="73.813" y1="14.428" x2="74.7898" y2="12.9794" width="2.54" layer="1"/>
 <wire x1="74.7898" y1="12.9794" x2="78.7908" y2="12.9794" width="2.54" layer="1"/>
-<wire x1="73.66" y1="14.1092" x2="74.739" y2="13.0302" width="2.54" layer="16"/>
+<wire x1="73.813" y1="14.428" x2="74.739" y2="13.0302" width="2.54" layer="16"/>
 <wire x1="74.739" y1="13.0302" x2="78.6638" y2="13.0302" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC1_B">
@@ -700,9 +700,9 @@ design rules under a new name.</description>
 <vertex x="23.2664" y="30.7086"/>
 <vertex x="-0.9652" y="30.7086"/>
 </polygon>
-<wire x1="27.66" y1="30.8092" x2="26.008" y2="32.4612" width="2.54" layer="1"/>
+<wire x1="27.813" y1="31.128" x2="26.008" y2="32.4612" width="2.54" layer="1"/>
 <wire x1="26.008" y1="32.4612" x2="22.7584" y2="32.4612" width="2.54" layer="1"/>
-<wire x1="27.66" y1="30.8092" x2="26.008" y2="32.4612" width="2.54" layer="16"/>
+<wire x1="27.813" y1="31.128" x2="26.008" y2="32.4612" width="2.54" layer="16"/>
 <wire x1="26.008" y1="32.4612" x2="22.733" y2="32.4612" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC2_R">
@@ -720,9 +720,9 @@ design rules under a new name.</description>
 <vertex x="24.9936" y="-1.7018"/>
 <vertex x="24.9936" y="3.9116"/>
 </polygon>
-<wire x1="27.66" y1="2.9692" x2="26.9768" y2="2.286" width="2.54" layer="1"/>
+<wire x1="27.813" y1="3.288" x2="26.9768" y2="2.286" width="2.54" layer="1"/>
 <wire x1="26.9768" y1="2.286" x2="23.0886" y2="2.286" width="2.54" layer="1"/>
-<wire x1="27.66" y1="2.9692" x2="26.9768" y2="2.286" width="2.54" layer="16"/>
+<wire x1="27.813" y1="3.288" x2="26.9768" y2="2.286" width="2.54" layer="16"/>
 <wire x1="26.9768" y1="2.286" x2="22.8854" y2="2.286" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC2_Y">
@@ -740,9 +740,9 @@ design rules under a new name.</description>
 <vertex x="-3.0226" y="5.1816"/>
 <vertex x="-3.0226" y="8.89"/>
 </polygon>
-<wire x1="27.66" y1="8.5392" x2="26.1058" y2="6.985" width="2.54" layer="1"/>
+<wire x1="27.813" y1="8.858" x2="26.1058" y2="6.985" width="2.54" layer="1"/>
 <wire x1="26.1058" y1="6.985" x2="23.0886" y2="6.985" width="2.54" layer="1"/>
-<wire x1="27.66" y1="8.5392" x2="26.1058" y2="6.985" width="2.54" layer="16"/>
+<wire x1="27.813" y1="8.858" x2="26.1058" y2="6.985" width="2.54" layer="16"/>
 <wire x1="26.1058" y1="6.985" x2="23.1394" y2="6.985" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC2_B">
@@ -760,9 +760,9 @@ design rules under a new name.</description>
 <vertex x="24.4602" y="10.2362"/>
 <vertex x="24.4602" y="16.5608"/>
 </polygon>
-<wire x1="27.66" y1="14.1092" x2="26.2508" y2="12.7" width="2.54" layer="1"/>
+<wire x1="27.813" y1="14.428" x2="26.2508" y2="12.7" width="2.54" layer="1"/>
 <wire x1="26.2508" y1="12.7" x2="20.4216" y2="12.7" width="2.54" layer="1"/>
-<wire x1="27.66" y1="14.1092" x2="26.3016" y2="12.7508" width="2.54" layer="16"/>
+<wire x1="27.813" y1="14.428" x2="26.3016" y2="12.7508" width="2.54" layer="16"/>
 <wire x1="26.3016" y1="12.7508" x2="20.4978" y2="12.7508" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC1_R">
@@ -780,9 +780,9 @@ design rules under a new name.</description>
 <vertex x="24.4602" y="17.7292"/>
 <vertex x="24.4602" y="24.2062"/>
 </polygon>
-<wire x1="27.66" y1="19.6692" x2="26.2472" y2="21.082" width="2.54" layer="1"/>
+<wire x1="27.813" y1="19.988" x2="26.2472" y2="21.082" width="2.54" layer="1"/>
 <wire x1="26.2472" y1="21.082" x2="21.9202" y2="21.082" width="2.54" layer="1"/>
-<wire x1="27.66" y1="19.6692" x2="26.171" y2="21.1582" width="2.54" layer="16"/>
+<wire x1="27.813" y1="19.988" x2="26.171" y2="21.1582" width="2.54" layer="16"/>
 <wire x1="26.171" y1="21.1582" x2="21.9456" y2="21.1582" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC1_Y">
@@ -800,9 +800,9 @@ design rules under a new name.</description>
 <vertex x="24.3332" y="25.4254"/>
 <vertex x="24.3332" y="29.464"/>
 </polygon>
-<wire x1="27.66" y1="25.2392" x2="25.8482" y2="27.051" width="2.54" layer="1"/>
+<wire x1="27.813" y1="25.558" x2="25.8482" y2="27.051" width="2.54" layer="1"/>
 <wire x1="25.8482" y1="27.051" x2="21.8948" y2="27.051" width="2.54" layer="1"/>
-<wire x1="27.66" y1="25.2392" x2="25.772" y2="27.1272" width="2.54" layer="16"/>
+<wire x1="27.813" y1="25.558" x2="25.772" y2="27.1272" width="2.54" layer="16"/>
 <wire x1="25.772" y1="27.1272" x2="21.971" y2="27.1272" width="2.54" layer="16"/>
 </signal>
 <signal name="12V">
@@ -923,40 +923,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="4,1,87822be039005329"/>
-<approved hash="4,1,3932ff897177b15a"/>
-<approved hash="4,1,cf70ecdb2560b7a9"/>
-<approved hash="4,1,9132ef89f1b1f158"/>
-<approved hash="4,1,821c413c82f18ffa"/>
-<approved hash="4,1,9de85bbb8bb69e63"/>
-<approved hash="4,1,85503aa08a6f87a0"/>
-<approved hash="4,1,85ec422c8bc787f0"/>
-<approved hash="4,1,85e042018cee8777"/>
-<approved hash="4,1,827c42bc92319f9a"/>
-<approved hash="4,1,3766fb2f58cf2a10"/>
-<approved hash="4,1,34fdf22b54422e95"/>
-<approved hash="4,1,3457fbef58ce55db"/>
-<approved hash="4,1,2c1ee2635cdd3618"/>
-<approved hash="4,1,34e3fb73513e23bb"/>
-<approved hash="4,1,331de3eb44422e95"/>
-<approved hash="4,16,87822be039005329"/>
-<approved hash="4,16,3932ff897177b15a"/>
-<approved hash="4,16,cf70ecdb2560b7a9"/>
-<approved hash="4,16,9132ef89f1b1f158"/>
-<approved hash="4,16,821c413c82f18ffa"/>
-<approved hash="4,16,9de85bbb8bb69e63"/>
-<approved hash="4,16,85503aa08a6f87a0"/>
-<approved hash="4,16,85ec422c8bc787f0"/>
-<approved hash="4,16,85e042018cee8777"/>
-<approved hash="4,16,827c42bc92319f9a"/>
-<approved hash="4,16,3766fb2f58cf2a10"/>
-<approved hash="4,16,34fdf22b54422e95"/>
-<approved hash="4,16,3457fbef58ce55db"/>
-<approved hash="4,16,2c1ee2635cdd3618"/>
-<approved hash="4,16,34e3fb73513e23bb"/>
-<approved hash="4,16,331de3eb44422e95"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
