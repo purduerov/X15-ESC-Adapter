@@ -207,7 +207,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="X15-ESC-Adapter">
 <packages>
-<package name="IPBT-103-H1-T-S">
+<package name="IPBT-103-H1-T-S" urn="urn:adsk.eagle:footprint:37886179/1">
 <pad name="1" x="-4.191" y="0" drill="1.778" diameter="2.54"/>
 <pad name="2" x="0" y="0" drill="1.778" diameter="2.54"/>
 <pad name="3" x="4.191" y="0" drill="1.778" diameter="2.54"/>
@@ -227,7 +227,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="3.75" x2="6.955" y2="3.75" width="0.1524" layer="21"/>
 <wire x1="6.955" y1="3.75" x2="6.955" y2="6.955" width="0.1524" layer="21"/>
 </package>
-<package name="LUMENIER" urn="urn:adsk.eagle:footprint:24294692/1" locally_modified="yes">
+<package name="LUMENIER" urn="urn:adsk.eagle:footprint:37886184/1">
 <wire x1="46" y1="0" x2="46" y2="33.4" width="0.127" layer="21"/>
 <wire x1="0" y1="33.4" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="12.38" y2="0" width="0.127" layer="21"/>
@@ -298,46 +298,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="11" x="46" y="25.05" drill="3.5" diameter="4.8" shape="octagon"/>
 <pad name="12" x="46" y="30.62" drill="3.5" diameter="4.8" shape="octagon"/>
 </package>
-<package name="BACKPLANE_ESC_ADAPTER_BKP_PWR">
-<pad name="GND@1" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@2" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@3" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@4" x="47.244" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@5" x="44.704" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@6" x="44.704" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@7" x="42.164" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@8" x="42.164" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@9" x="39.624" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@10" x="39.624" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@11" x="37.084" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@12" x="37.084" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="12V@1" x="65.024" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@2" x="65.024" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@3" x="62.484" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@4" x="62.484" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@5" x="59.944" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@6" x="59.944" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@7" x="57.404" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@8" x="57.404" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@9" x="54.864" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@10" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@11" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@12" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="52"/>
-<wire x1="101.6" y1="0" x2="101.6" y2="41.148" width="0" layer="52"/>
-<wire x1="101.6" y1="41.148" x2="0" y2="41.148" width="0" layer="52"/>
-<wire x1="0" y1="41.148" x2="0" y2="0" width="0" layer="52"/>
-<text x="36.83" y="32.639" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.2" layer="22"/>
-<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.2" layer="22"/>
-<wire x1="66.484" y1="40.067" x2="35.624" y2="40.067" width="0.2" layer="22"/>
-<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.2" layer="22"/>
-<wire x1="35.374" y1="34.867" x2="35.374" y2="40.317" width="0.05" layer="40"/>
-<wire x1="35.374" y1="40.317" x2="66.734" y2="40.317" width="0.05" layer="40"/>
-<wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="40"/>
-<wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="40"/>
-</package>
-<package name="6-32-HOLE" urn="urn:adsk.eagle:footprint:24384747/1">
+<package name="6-32-HOLE" urn="urn:adsk.eagle:footprint:37886185/1">
 <circle x="0" y="0" radius="3.175" width="0.127" layer="39"/>
 <circle x="0" y="0" radius="2.159" width="0.127" layer="41"/>
 <circle x="0" y="0" radius="3.175" width="0.127" layer="40"/>
@@ -348,14 +309,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
-<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:24384748/2" type="empty">
+<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:37886189/1" type="empty">
 <packageinstances>
 <packageinstance name="6-32-HOLE"/>
 </packageinstances>
 </package3d>
-<package3d name="LUMENIER_QUAD" urn="urn:adsk.eagle:package:24294694/3" locally_modified="yes" type="model">
+<package3d name="LUMENIER_QUAD" urn="urn:adsk.eagle:package:37886188/1" type="box">
 <packageinstances>
 <packageinstance name="LUMENIER"/>
+</packageinstances>
+</package3d>
+<package3d name="IPBT-103-H1-T-S" urn="urn:adsk.eagle:package:37886187/2" type="model">
+<packageinstances>
+<packageinstance name="IPBT-103-H1-T-S"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -374,10 +340,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="M2P2" x="-5.08" y="5.08" length="middle"/>
 <pin name="M2P3" x="-5.08" y="2.54" length="middle"/>
 <pin name="M2P1" x="-5.08" y="7.62" length="middle"/>
-<wire x1="0" y1="0" x2="25.4" y2="0" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="0" x2="25.4" y2="20.32" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="20.32" width="0.1524" layer="94"/>
-<wire x1="0" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="94"/>
 <pin name="M1P3" x="-5.08" y="12.7" length="middle"/>
 <pin name="M1P2" x="-5.08" y="15.24" length="middle"/>
 <pin name="M1P1" x="-5.08" y="17.78" length="middle"/>
@@ -389,16 +351,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="M3P1" x="30.48" y="17.78" length="middle" rot="R180"/>
 <pin name="GND" x="12.7" y="-5.08" length="middle" rot="R90"/>
 <pin name="VIN" x="12.7" y="25.4" length="middle" rot="R270"/>
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="0" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="94"/>
 <text x="0" y="20.32" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="PWR_RETURN">
-<pin name="12V" x="0" y="12.7" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
-<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.27" layer="95" rot="R90">&gt;NAME</text>
 </symbol>
 <symbol name="MOUNTING-HOLE">
 <description>&lt;h3&gt;Stand-Off Drill Hole&lt;/h3&gt;</description>
@@ -419,6 +376,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37886187/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -448,24 +408,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294694/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37886188/1"/>
 </package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BACKPLANE_ESC_ADAPTER_PWR">
-<gates>
-<gate name="G$1" symbol="PWR_RETURN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="BKP" package="BACKPLANE_ESC_ADAPTER_BKP_PWR">
-<connects>
-<connect gate="G$1" pin="12V" pad="12V@1 12V@2 12V@3 12V@4 12V@5 12V@6 12V@7 12V@8 12V@9 12V@10 12V@11 12V@12"/>
-<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -479,7 +423,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="" package="6-32-HOLE">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24384748/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37886189/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -524,6 +468,121 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="X15-ESC-Adapter" urn="urn:adsk.eagle:library:38003364">
+<packages>
+<package name="IPS1-BACKPLANE-PWR" urn="urn:adsk.eagle:footprint:37886178/2" library_version="2">
+<pad name="GND@1" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@2" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@3" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@4" x="47.244" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@5" x="44.704" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@6" x="44.704" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@7" x="42.164" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@8" x="42.164" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@9" x="39.624" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@10" x="39.624" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@11" x="37.084" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@12" x="37.084" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="12V@1" x="65.024" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@2" x="65.024" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@3" x="62.484" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@4" x="62.484" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@5" x="59.944" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@6" x="59.944" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@7" x="57.404" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@8" x="57.404" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@9" x="54.864" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@10" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@11" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@12" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="GND@13" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@14" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@15" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@16" x="47.244" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@17" x="44.704" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@18" x="44.704" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@19" x="42.164" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@20" x="42.164" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@21" x="39.624" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@22" x="39.624" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@23" x="37.084" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@24" x="37.084" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="12V@13" x="65.024" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@14" x="65.024" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@15" x="62.484" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@16" x="62.484" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@17" x="59.944" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@18" x="59.944" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@19" x="57.404" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@20" x="57.404" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@21" x="54.864" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@22" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@23" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12V@24" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="52"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="41.148" width="0" layer="52"/>
+<wire x1="101.6" y1="41.148" x2="0" y2="41.148" width="0" layer="52"/>
+<wire x1="0" y1="41.148" x2="0" y2="0" width="0" layer="52"/>
+<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.2" layer="22"/>
+<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.2" layer="22"/>
+<wire x1="66.484" y1="40.067" x2="35.624" y2="40.067" width="0.2" layer="22"/>
+<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.2" layer="22"/>
+<wire x1="35.374" y1="34.867" x2="35.374" y2="40.317" width="0.05" layer="40"/>
+<wire x1="35.374" y1="40.317" x2="66.734" y2="40.317" width="0.05" layer="40"/>
+<wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="40"/>
+<wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="40"/>
+<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.2" layer="22"/>
+<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.2" layer="22"/>
+<wire x1="66.484" y1="40.067" x2="35.624" y2="40.067" width="0.2" layer="22"/>
+<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.2" layer="22"/>
+<wire x1="35.374" y1="34.867" x2="35.374" y2="40.317" width="0.05" layer="40"/>
+<wire x1="35.374" y1="40.317" x2="66.734" y2="40.317" width="0.05" layer="40"/>
+<wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="40"/>
+<wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="40"/>
+<text x="36.83" y="32.639" size="1.27" layer="25">&gt;NAME</text>
+<text x="36.83" y="32.639" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="BACKPLANE_ESC_ADAPTER_BKP_PWR" urn="urn:adsk.eagle:package:37886186/4" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="IPS1-BACKPLANE-PWR"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PWR_RETURN" urn="urn:adsk.eagle:symbol:38003365/1" library_version="2">
+<pin name="12V" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.27" layer="95" rot="R90">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IPS1-112-01-L-D" urn="urn:adsk.eagle:component:38003372/2" library_version="2">
+<gates>
+<gate name="G$1" symbol="PWR_RETURN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BKP" package="IPS1-BACKPLANE-PWR">
+<connects>
+<connect gate="G$1" pin="12V" pad="12V@1 12V@2 12V@3 12V@4 12V@5 12V@6 12V@7 12V@8 12V@9 12V@10 12V@11 12V@12"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37886186/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -535,17 +594,17 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="J4" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device=""/>
-<part name="J3" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device=""/>
-<part name="J2" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device=""/>
-<part name="J1" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device=""/>
-<part name="LUMENIER_ESC" library="X15-ESC-Adapter" deviceset="LUMENIER" device="" package3d_urn="urn:adsk.eagle:package:24294694/3"/>
-<part name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" deviceset="BACKPLANE_ESC_ADAPTER_PWR" device="BKP"/>
+<part name="J4" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
+<part name="J3" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
+<part name="J2" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
+<part name="J1" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
+<part name="LUMENIER_ESC" library="X15-ESC-Adapter" deviceset="LUMENIER" device="" package3d_urn="urn:adsk.eagle:package:37886188/1"/>
+<part name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" library_urn="urn:adsk.eagle:library:38003364" deviceset="IPS1-112-01-L-D" device="BKP" package3d_urn="urn:adsk.eagle:package:37886186/4"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="H1" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
-<part name="H2" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
-<part name="H3" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
-<part name="H4" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
+<part name="H1" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
+<part name="H2" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
+<part name="H3" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
+<part name="H4" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
 </parts>
 <sheets>
 <sheet>
