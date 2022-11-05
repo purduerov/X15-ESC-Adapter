@@ -286,28 +286,7 @@
 <pad name="11" x="46" y="25.05" drill="3.5" diameter="4.8" shape="octagon"/>
 <pad name="12" x="46" y="30.62" drill="3.5" diameter="4.8" shape="octagon"/>
 </package>
-</packages>
-<packages3d>
-<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:37886189/1" type="empty">
-<packageinstances>
-<packageinstance name="6-32-HOLE"/>
-</packageinstances>
-</package3d>
-<package3d name="LUMENIER_QUAD" urn="urn:adsk.eagle:package:37886188/1" type="box">
-<packageinstances>
-<packageinstance name="LUMENIER"/>
-</packageinstances>
-</package3d>
-<package3d name="IPBT-103-H1-T-S" urn="urn:adsk.eagle:package:37886187/2" type="model">
-<packageinstances>
-<packageinstance name="IPBT-103-H1-T-S"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="X15-ESC-Adapter" urn="urn:adsk.eagle:library:38003364">
-<packages>
-<package name="IPS1-BACKPLANE-PWR" urn="urn:adsk.eagle:footprint:37886178/2" library_version="2">
+<package name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:footprint:38090769/1">
 <pad name="GND@1" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
 <pad name="GND@2" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
 <pad name="GND@3" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
@@ -332,58 +311,44 @@
 <pad name="12V@10" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="12V@11" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="12V@12" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="GND@13" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@14" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@15" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@16" x="47.244" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@17" x="44.704" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@18" x="44.704" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@19" x="42.164" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@20" x="42.164" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@21" x="39.624" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@22" x="39.624" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@23" x="37.084" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@24" x="37.084" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="12V@13" x="65.024" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@14" x="65.024" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@15" x="62.484" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@16" x="62.484" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@17" x="59.944" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@18" x="59.944" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@19" x="57.404" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@20" x="57.404" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@21" x="54.864" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@22" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@23" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@24" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="52"/>
-<wire x1="101.6" y1="0" x2="101.6" y2="41.148" width="0" layer="52"/>
-<wire x1="101.6" y1="41.148" x2="0" y2="41.148" width="0" layer="52"/>
-<wire x1="0" y1="41.148" x2="0" y2="0" width="0" layer="52"/>
-<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.2" layer="22"/>
-<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.2" layer="22"/>
-<wire x1="66.484" y1="40.067" x2="35.624" y2="40.067" width="0.2" layer="22"/>
-<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.2" layer="22"/>
-<wire x1="35.374" y1="34.867" x2="35.374" y2="40.317" width="0.05" layer="40"/>
-<wire x1="35.374" y1="40.317" x2="66.734" y2="40.317" width="0.05" layer="40"/>
-<wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="40"/>
-<wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="40"/>
-<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.2" layer="22"/>
-<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.2" layer="22"/>
-<wire x1="66.484" y1="40.067" x2="35.624" y2="40.067" width="0.2" layer="22"/>
-<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.2" layer="22"/>
-<wire x1="35.374" y1="34.867" x2="35.374" y2="40.317" width="0.05" layer="40"/>
-<wire x1="35.374" y1="40.317" x2="66.734" y2="40.317" width="0.05" layer="40"/>
-<wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="40"/>
-<wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="40"/>
-<text x="36.83" y="32.639" size="1.27" layer="25">&gt;NAME</text>
-<text x="36.83" y="32.639" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="41.148" width="0" layer="51"/>
+<wire x1="101.6" y1="41.148" x2="0" y2="41.148" width="0" layer="51"/>
+<wire x1="0" y1="41.148" x2="0" y2="0" width="0" layer="51"/>
+<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.1" layer="51"/>
+<wire x1="35.624" y1="40.067" x2="66.484" y2="40.067" width="0.1" layer="51"/>
+<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.1" layer="51"/>
+<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.1" layer="51"/>
+<wire x1="35.624" y1="35.117" x2="35.624" y2="40.067" width="0.2" layer="21"/>
+<wire x1="66.484" y1="40.067" x2="66.484" y2="35.117" width="0.2" layer="21"/>
+<wire x1="66.484" y1="40.067" x2="35.624" y2="40.067" width="0.2" layer="21"/>
+<wire x1="66.484" y1="35.117" x2="35.624" y2="35.117" width="0.2" layer="21"/>
+<wire x1="35.374" y1="34.867" x2="35.374" y2="40.317" width="0.05" layer="39"/>
+<wire x1="35.374" y1="40.317" x2="66.734" y2="40.317" width="0.05" layer="39"/>
+<wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="39"/>
+<wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="39"/>
+<text x="22.86" y="35.179" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="BACKPLANE_ESC_ADAPTER_BKP_PWR" urn="urn:adsk.eagle:package:37886186/4" type="model" library_version="2">
+<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:37886189/1" type="empty">
 <packageinstances>
-<packageinstance name="IPS1-BACKPLANE-PWR"/>
+<packageinstance name="6-32-HOLE"/>
+</packageinstances>
+</package3d>
+<package3d name="LUMENIER_QUAD" urn="urn:adsk.eagle:package:37886188/1" type="box">
+<packageinstances>
+<packageinstance name="LUMENIER"/>
+</packageinstances>
+</package3d>
+<package3d name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:package:38090775/2" type="model">
+<packageinstances>
+<packageinstance name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR"/>
+</packageinstances>
+</package3d>
+<package3d name="IPBT-103-H1-T-S" urn="urn:adsk.eagle:package:37886187/2" type="model">
+<packageinstances>
+<packageinstance name="IPBT-103-H1-T-S"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -581,9 +546,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" library_urn="urn:adsk.eagle:library:38003364" package="IPS1-BACKPLANE-PWR" package3d_urn="urn:adsk.eagle:package:37886186/4" value="IPS1-112-01-L-DBKP" x="0" y="0" smashed="yes">
-<attribute name="NAME" x="36.83" y="32.639" size="1.27" layer="25"/>
-</element>
 <element name="H1" library="X15-ESC-Adapter" package="6-32-HOLE" package3d_urn="urn:adsk.eagle:package:37886189/1" value="6-32-HOLE" x="3.302" y="37.8968" smashed="yes">
 <attribute name="NAME" x="3.302" y="40.1828" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 </element>
@@ -593,7 +555,7 @@ design rules under a new name.</description>
 </element>
 <element name="H3" library="X15-ESC-Adapter" package="6-32-HOLE" package3d_urn="urn:adsk.eagle:package:37886189/1" value="6-32-HOLE" x="3.302" y="17.272" smashed="yes">
 <attribute name="NAME" x="3.302" y="19.558" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="3.302" y="14.986" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="3.3782" y="14.986" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="H4" library="X15-ESC-Adapter" package="6-32-HOLE" package3d_urn="urn:adsk.eagle:package:37886189/1" value="6-32-HOLE" x="98.298" y="17.272" smashed="yes">
 <attribute name="NAME" x="98.298" y="19.558" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -604,6 +566,9 @@ design rules under a new name.</description>
 <element name="J3" library="X15-ESC-Adapter" package="IPBT-103-H1-T-S" package3d_urn="urn:adsk.eagle:package:37886187/2" value="IPBT-103-H1-T-S" x="87.63" y="27.6352" smashed="yes" rot="R270"/>
 <element name="J4" library="X15-ESC-Adapter" package="IPBT-103-H1-T-S" package3d_urn="urn:adsk.eagle:package:37886187/2" value="IPBT-103-H1-T-S" x="87.6554" y="6.985" smashed="yes" rot="R270"/>
 <element name="LUMENIER_ESC" library="X15-ESC-Adapter" package="LUMENIER" package3d_urn="urn:adsk.eagle:package:37886188/1" value="LUMENIER" x="27.813" y="0.508" smashed="yes"/>
+<element name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" package="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" package3d_urn="urn:adsk.eagle:package:38090775/2" value="IPS1-112-01-L-D" x="0" y="0" smashed="yes">
+<attribute name="NAME" x="39.4208" y="33.401" size="1.27" layer="25"/>
+</element>
 </elements>
 <signals>
 <signal name="ESC3_R">
@@ -855,18 +820,6 @@ design rules under a new name.</description>
 <wire x1="25.772" y1="27.1272" x2="21.971" y2="27.1272" width="2.54" layer="16"/>
 </signal>
 <signal name="12V">
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@1"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@2"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@3"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@4"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@5"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@6"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@7"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@8"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@9"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@10"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@11"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="12V@12"/>
 <contactref element="LUMENIER_ESC" pad="VIN"/>
 <polygon width="1.016" layer="1" thermals="no">
 <vertex x="51.5874" y="44.323"/>
@@ -891,41 +844,21 @@ design rules under a new name.</description>
 <via x="58.9534" y="27.432" extent="1-16" drill="0.35"/>
 <via x="56.1086" y="28.448" extent="1-16" drill="0.35"/>
 <via x="53.1622" y="28.3718" extent="1-16" drill="0.35"/>
-<wire x1="65.024" y1="36.322" x2="65.024" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="62.484" y1="38.862" x2="65.024" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="62.484" y1="36.322" x2="65.024" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="59.944" y1="38.862" x2="62.484" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="59.944" y1="36.322" x2="62.484" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="57.404" y1="38.862" x2="59.944" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="57.404" y1="36.322" x2="59.944" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="56.4642" y1="34.036" x2="57.404" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="56.9722" y1="33.0962" x2="56.4642" y2="34.036" width="0" layer="19" extent="1-1"/>
-<wire x1="54.864" y1="38.862" x2="57.404" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="54.864" y1="36.322" x2="57.404" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="52.324" y1="38.862" x2="54.864" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="52.324" y1="36.322" x2="54.864" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="52.197" y1="34.2392" x2="52.324" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="53.8226" y1="32.9946" x2="52.197" y2="34.2392" width="0" layer="19" extent="1-1"/>
-<wire x1="55.303" y1="30.878" x2="53.8226" y2="32.9946" width="0" layer="19" extent="1-1"/>
-<wire x1="56.1086" y1="28.448" x2="55.303" y2="30.878" width="0" layer="19" extent="1-1"/>
-<wire x1="53.1622" y1="28.3718" x2="56.1086" y2="28.448" width="0" layer="19" extent="1-1"/>
-<wire x1="59.0296" y1="29.21" x2="56.1086" y2="28.448" width="0" layer="19" extent="1-1"/>
-<wire x1="58.9534" y1="27.432" x2="59.0296" y2="29.21" width="0" layer="19" extent="1-1"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@1"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@2"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@3"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@4"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@5"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@6"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@7"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@8"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@9"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@10"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@11"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="12V@12"/>
 </signal>
 <signal name="GND">
 <contactref element="LUMENIER_ESC" pad="GND"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@1"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@2"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@3"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@4"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@5"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@6"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@7"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@8"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@9"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@10"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@11"/>
-<contactref element="BACKPLANE_CONNECTIONS" pad="GND@12"/>
 <polygon width="1.016" layer="1" thermals="no">
 <vertex x="31.496" y="42.6974"/>
 <vertex x="50.1142" y="42.6974"/>
@@ -951,26 +884,18 @@ design rules under a new name.</description>
 <via x="43.815" y="34.29" extent="1-16" drill="0.35"/>
 <via x="46.3042" y="33.274" extent="1-16" drill="0.35"/>
 <via x="48.641" y="33.782" extent="1-16" drill="0.35"/>
-<wire x1="49.784" y1="36.322" x2="49.784" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="47.244" y1="38.862" x2="49.784" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="47.244" y1="36.322" x2="49.784" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="44.704" y1="38.862" x2="47.244" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="44.704" y1="36.322" x2="47.244" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="43.815" y1="34.29" x2="44.704" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="42.164" y1="38.862" x2="44.704" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="42.164" y1="36.322" x2="44.704" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="39.624" y1="38.862" x2="42.164" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="39.624" y1="36.322" x2="42.164" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="37.084" y1="38.862" x2="39.624" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="37.084" y1="36.322" x2="39.624" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="46.3042" y1="33.274" x2="43.815" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="48.641" y1="33.782" x2="46.3042" y2="33.274" width="0" layer="19" extent="1-1"/>
-<wire x1="46.323" y1="30.878" x2="46.3042" y2="33.274" width="0" layer="19" extent="1-1"/>
-<wire x1="46.0502" y1="28.702" x2="46.323" y2="30.878" width="0" layer="19" extent="1-1"/>
-<wire x1="42.3418" y1="31.75" x2="43.815" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="40.9194" y1="31.877" x2="42.3418" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="40.5892" y1="29.6164" x2="40.9194" y2="31.877" width="0" layer="19" extent="1-1"/>
-<wire x1="42.8498" y1="29.464" x2="40.5892" y2="29.6164" width="0" layer="19" extent="1-1"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@1"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@2"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@3"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@4"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@5"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@6"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@7"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@8"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@9"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@10"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@11"/>
+<contactref element="BACKPLANE_CONNECTIONS" pad="GND@12"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -983,11 +908,6 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
