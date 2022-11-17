@@ -362,14 +362,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="LUMENIER"/>
 </packageinstances>
 </package3d>
-<package3d name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:package:38090775/2" type="model">
-<packageinstances>
-<packageinstance name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR"/>
-</packageinstances>
-</package3d>
 <package3d name="IPBT-103-H1-T-S" urn="urn:adsk.eagle:package:37886187/2" type="model">
 <packageinstances>
 <packageinstance name="IPBT-103-H1-T-S"/>
+</packageinstances>
+</package3d>
+<package3d name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:package:38090775/2" type="model">
+<packageinstances>
+<packageinstance name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -560,12 +560,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="J2" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
 <part name="J1" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
 <part name="LUMENIER_ESC" library="X15-ESC-Adapter" deviceset="LUMENIER" device="" package3d_urn="urn:adsk.eagle:package:37886188/1"/>
+<part name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" deviceset="IPS1-112-01-L-D" device="" package3d_urn="urn:adsk.eagle:package:38090775/2"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="H1" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
 <part name="H2" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
 <part name="H3" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
 <part name="H4" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
-<part name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" deviceset="IPS1-112-01-L-D" device="" package3d_urn="urn:adsk.eagle:package:38090775/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -592,6 +592,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="LUMENIER_ESC" gate="G$1" x="152.4" y="91.44" smashed="yes">
 <attribute name="NAME" x="152.4" y="111.76" size="1.778" layer="95"/>
 </instance>
+<instance part="BACKPLANE_CONNECTIONS" gate="G$1" x="218.44" y="132.08" smashed="yes">
+<attribute name="NAME" x="215.9" y="129.54" size="1.27" layer="95" rot="R90"/>
+</instance>
 <instance part="SUPPLY1" gate="GND" x="218.44" y="104.14" smashed="yes">
 <attribute name="VALUE" x="216.535" y="100.965" size="1.778" layer="96"/>
 </instance>
@@ -610,9 +613,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="H4" gate="G$1" x="91.44" y="129.54" smashed="yes">
 <attribute name="NAME" x="91.44" y="132.08" size="1.016" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="91.44" y="127" size="1.016" layer="95" align="top-center"/>
-</instance>
-<instance part="BACKPLANE_CONNECTIONS" gate="G$1" x="218.44" y="132.08" smashed="yes">
-<attribute name="NAME" x="215.9" y="129.54" size="1.27" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -764,9 +764,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="12V" class="0">
 <segment>
+<pinref part="BACKPLANE_CONNECTIONS" gate="G$1" pin="12V"/>
 <wire x1="218.44" y1="144.78" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
 <label x="218.44" y="154.94" size="1.778" layer="95" xref="yes"/>
-<pinref part="BACKPLANE_CONNECTIONS" gate="G$1" pin="12V"/>
 </segment>
 <segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="VIN"/>
@@ -781,10 +781,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="165.1" y="83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
+<pinref part="BACKPLANE_CONNECTIONS" gate="G$1" pin="GND"/>
 <wire x1="218.44" y1="119.38" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<label x="218.44" y="111.76" size="1.778" layer="95" rot="R270"/>
-<pinref part="BACKPLANE_CONNECTIONS" gate="G$1" pin="GND"/>
+<label x="218.44" y="106.68" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>

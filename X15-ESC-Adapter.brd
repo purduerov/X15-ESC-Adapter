@@ -341,14 +341,14 @@
 <packageinstance name="LUMENIER"/>
 </packageinstances>
 </package3d>
-<package3d name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:package:38090775/2" type="model">
-<packageinstances>
-<packageinstance name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR"/>
-</packageinstances>
-</package3d>
 <package3d name="IPBT-103-H1-T-S" urn="urn:adsk.eagle:package:37886187/2" type="model">
 <packageinstances>
 <packageinstance name="IPBT-103-H1-T-S"/>
+</packageinstances>
+</package3d>
+<package3d name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:package:38090775/2" type="model">
+<packageinstances>
+<packageinstance name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -546,6 +546,9 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
+<element name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" package="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" package3d_urn="urn:adsk.eagle:package:38090775/2" value="IPS1-112-01-L-D" x="0" y="0" smashed="yes">
+<attribute name="NAME" x="36.83" y="32.639" size="1.27" layer="25"/>
+</element>
 <element name="H1" library="X15-ESC-Adapter" package="6-32-HOLE" package3d_urn="urn:adsk.eagle:package:37886189/1" value="6-32-HOLE" x="3.302" y="37.8968" smashed="yes">
 <attribute name="NAME" x="3.302" y="40.1828" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 </element>
@@ -555,7 +558,7 @@ design rules under a new name.</description>
 </element>
 <element name="H3" library="X15-ESC-Adapter" package="6-32-HOLE" package3d_urn="urn:adsk.eagle:package:37886189/1" value="6-32-HOLE" x="3.302" y="17.272" smashed="yes">
 <attribute name="NAME" x="3.302" y="19.558" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="3.3782" y="14.986" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="3.302" y="14.986" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="H4" library="X15-ESC-Adapter" package="6-32-HOLE" package3d_urn="urn:adsk.eagle:package:37886189/1" value="6-32-HOLE" x="98.298" y="17.272" smashed="yes">
 <attribute name="NAME" x="98.298" y="19.558" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -566,15 +569,12 @@ design rules under a new name.</description>
 <element name="J3" library="X15-ESC-Adapter" package="IPBT-103-H1-T-S" package3d_urn="urn:adsk.eagle:package:37886187/2" value="IPBT-103-H1-T-S" x="87.63" y="27.6352" smashed="yes" rot="R270"/>
 <element name="J4" library="X15-ESC-Adapter" package="IPBT-103-H1-T-S" package3d_urn="urn:adsk.eagle:package:37886187/2" value="IPBT-103-H1-T-S" x="87.6554" y="6.985" smashed="yes" rot="R270"/>
 <element name="LUMENIER_ESC" library="X15-ESC-Adapter" package="LUMENIER" package3d_urn="urn:adsk.eagle:package:37886188/1" value="LUMENIER" x="27.813" y="0.508" smashed="yes"/>
-<element name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" package="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" package3d_urn="urn:adsk.eagle:package:38090775/2" value="IPS1-112-01-L-D" x="0" y="0" smashed="yes">
-<attribute name="NAME" x="39.4208" y="33.401" size="1.27" layer="25"/>
-</element>
 </elements>
 <signals>
 <signal name="ESC3_R">
 <contactref element="LUMENIER_ESC" pad="10"/>
 <contactref element="J3" pad="3"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="103.1494" y="24.4602"/>
 <vertex x="76.6064" y="24.4602"/>
 <vertex x="76.6064" y="17.272"/>
@@ -594,7 +594,7 @@ design rules under a new name.</description>
 <signal name="ESC3_Y">
 <contactref element="J3" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="11"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="76.7588" y="28.5496"/>
 <vertex x="102.743" y="28.5496"/>
 <vertex x="102.743" y="25.7302"/>
@@ -614,18 +614,18 @@ design rules under a new name.</description>
 <signal name="ESC3_B">
 <contactref element="LUMENIER_ESC" pad="12"/>
 <contactref element="J3" pad="1"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="71.374" y="42.4434"/>
-<vertex x="71.374" y="34.0614"/>
-<vertex x="77.0636" y="34.0614"/>
+<vertex x="71.374" y="32.7914"/>
+<vertex x="77.0636" y="32.7914"/>
 <vertex x="77.0636" y="29.845"/>
 <vertex x="103.2256" y="29.845"/>
 <vertex x="103.2256" y="42.4434"/>
 </polygon>
 <polygon width="1.016" layer="16" thermals="no">
-<vertex x="71.2978" y="43.1292"/>
-<vertex x="71.2978" y="34.1884"/>
-<vertex x="77.0382" y="34.1884"/>
+<vertex x="71.2724" y="43.1292"/>
+<vertex x="71.2724" y="32.893"/>
+<vertex x="77.0382" y="32.893"/>
 <vertex x="77.0382" y="29.8196"/>
 <vertex x="103.3272" y="29.8196"/>
 <vertex x="103.3272" y="43.1292"/>
@@ -634,11 +634,15 @@ design rules under a new name.</description>
 <wire x1="75.0834" y1="32.2326" x2="77.1144" y2="32.2326" width="2.54" layer="1"/>
 <wire x1="73.813" y1="31.128" x2="75.0326" y2="32.1818" width="2.54" layer="16"/>
 <wire x1="75.0326" y1="32.1818" x2="77.1144" y2="32.1818" width="2.54" layer="16"/>
+<wire x1="73.813" y1="31.128" x2="73.813" y2="36.2198" width="2.54" layer="1"/>
+<wire x1="73.813" y1="36.2198" x2="73.8124" y2="36.2204" width="2.54" layer="1"/>
+<wire x1="73.813" y1="31.128" x2="73.813" y2="36.169" width="2.54" layer="16"/>
+<wire x1="73.813" y1="36.169" x2="73.7616" y2="36.2204" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC4_R">
 <contactref element="LUMENIER_ESC" pad="7"/>
 <contactref element="J4" pad="3"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="76.6572" y="3.8354"/>
 <vertex x="103.886" y="3.8354"/>
 <vertex x="103.886" y="-2.286"/>
@@ -658,7 +662,7 @@ design rules under a new name.</description>
 <signal name="ESC4_Y">
 <contactref element="J4" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="8"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="76.572534375" y="8.2042"/>
 <vertex x="76.572534375" y="5.08"/>
 <vertex x="103.8352" y="5.08"/>
@@ -678,7 +682,7 @@ design rules under a new name.</description>
 <signal name="ESC4_B">
 <contactref element="LUMENIER_ESC" pad="9"/>
 <contactref element="J4" pad="1"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="103.632" y="15.9258"/>
 <vertex x="103.632" y="9.5504"/>
 <vertex x="76.6572" y="9.5504"/>
@@ -698,26 +702,30 @@ design rules under a new name.</description>
 <signal name="ESC1_B">
 <contactref element="J1" pad="3"/>
 <contactref element="LUMENIER_ESC" pad="1"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="-0.6604" y="42.0116"/>
 <vertex x="-0.6604" y="30.5816"/>
-<vertex x="23.368" y="30.5816"/>
-<vertex x="23.368" y="34.6964"/>
-<vertex x="29.718" y="34.6964"/>
+<vertex x="23.622" y="30.5816"/>
+<vertex x="23.622" y="33.8328"/>
+<vertex x="29.718" y="33.8328"/>
 <vertex x="29.718" y="42.0116"/>
 </polygon>
 <polygon width="1.016" layer="16" thermals="no">
 <vertex x="-0.9652" y="42.291"/>
 <vertex x="29.6164" y="42.291"/>
-<vertex x="29.6164" y="34.8742"/>
-<vertex x="23.2664" y="34.8742"/>
+<vertex x="29.6164" y="34.0106"/>
+<vertex x="23.2664" y="34.0106"/>
 <vertex x="23.2664" y="30.7086"/>
 <vertex x="-0.9652" y="30.7086"/>
 </polygon>
 <wire x1="27.813" y1="31.128" x2="26.008" y2="32.4612" width="2.54" layer="1"/>
 <wire x1="26.008" y1="32.4612" x2="22.7584" y2="32.4612" width="2.54" layer="1"/>
-<wire x1="27.813" y1="31.128" x2="26.008" y2="32.4612" width="2.54" layer="16"/>
-<wire x1="26.008" y1="32.4612" x2="22.733" y2="32.4612" width="2.54" layer="16"/>
+<wire x1="27.813" y1="31.128" x2="26.4798" y2="32.4612" width="2.54" layer="16"/>
+<wire x1="26.4798" y1="32.4612" x2="22.733" y2="32.4612" width="2.54" layer="16"/>
+<wire x1="27.813" y1="31.128" x2="27.813" y2="35.306" width="2.54" layer="1"/>
+<wire x1="27.813" y1="35.306" x2="27.9146" y2="35.4076" width="2.54" layer="1"/>
+<wire x1="27.813" y1="31.128" x2="27.813" y2="35.6616" width="2.54" layer="16"/>
+<wire x1="27.813" y1="35.6616" x2="27.8638" y2="35.7124" width="2.54" layer="16"/>
 </signal>
 <signal name="ESC2_R">
 <contactref element="J2" pad="1"/>
@@ -742,7 +750,7 @@ design rules under a new name.</description>
 <signal name="ESC2_Y">
 <contactref element="J2" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="5"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="-1.1176" y="8.8646"/>
 <vertex x="-1.1176" y="5.1308"/>
 <vertex x="24.6126" y="5.1308"/>
@@ -762,7 +770,7 @@ design rules under a new name.</description>
 <signal name="ESC2_B">
 <contactref element="J2" pad="3"/>
 <contactref element="LUMENIER_ESC" pad="4"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="-1.8796" y="16.4338"/>
 <vertex x="-1.8796" y="10.16"/>
 <vertex x="24.4602" y="10.16"/>
@@ -782,7 +790,7 @@ design rules under a new name.</description>
 <signal name="ESC1_R">
 <contactref element="J1" pad="1"/>
 <contactref element="LUMENIER_ESC" pad="3"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="-1.087178125" y="24.12386875"/>
 <vertex x="24.4094" y="24.12386875"/>
 <vertex x="24.4094" y="17.6784"/>
@@ -802,7 +810,7 @@ design rules under a new name.</description>
 <signal name="ESC1_Y">
 <contactref element="J1" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="2"/>
-<polygon width="1.016" layer="1">
+<polygon width="1.016" layer="1" thermals="no">
 <vertex x="-2.2098" y="29.2608"/>
 <vertex x="24.3078" y="29.2608"/>
 <vertex x="24.3078" y="25.3746"/>
@@ -820,30 +828,6 @@ design rules under a new name.</description>
 <wire x1="25.772" y1="27.1272" x2="21.971" y2="27.1272" width="2.54" layer="16"/>
 </signal>
 <signal name="12V">
-<contactref element="LUMENIER_ESC" pad="VIN"/>
-<polygon width="1.016" layer="1" thermals="no">
-<vertex x="51.5874" y="44.323"/>
-<vertex x="51.5874" y="26.7208"/>
-<vertex x="32.0802" y="26.7208"/>
-<vertex x="32.0802" y="8.6614"/>
-<vertex x="69.7992" y="8.6614"/>
-<vertex x="69.7992" y="44.323"/>
-</polygon>
-<polygon width="1.016" layer="16" thermals="no">
-<vertex x="51.4858" y="45.2882"/>
-<vertex x="51.4858" y="26.0604"/>
-<vertex x="69.723" y="26.0604"/>
-<vertex x="69.723" y="45.466"/>
-<vertex x="51.4858" y="45.466"/>
-</polygon>
-<via x="52.197" y="34.2392" extent="1-16" drill="0.35"/>
-<via x="56.4642" y="34.036" extent="1-16" drill="0.35"/>
-<via x="53.8226" y="32.9946" extent="1-16" drill="0.35"/>
-<via x="56.9722" y="33.0962" extent="1-16" drill="0.35"/>
-<via x="59.0296" y="29.21" extent="1-16" drill="0.35"/>
-<via x="58.9534" y="27.432" extent="1-16" drill="0.35"/>
-<via x="56.1086" y="28.448" extent="1-16" drill="0.35"/>
-<via x="53.1622" y="28.3718" extent="1-16" drill="0.35"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@1"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@2"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@3"/>
@@ -856,34 +840,30 @@ design rules under a new name.</description>
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@10"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@11"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@12"/>
+<contactref element="LUMENIER_ESC" pad="VIN"/>
+<polygon width="1.016" layer="1" thermals="no">
+<vertex x="51.5874" y="44.323"/>
+<vertex x="51.5874" y="25.146"/>
+<vertex x="69.7992" y="25.146"/>
+<vertex x="69.7992" y="44.323"/>
+</polygon>
+<polygon width="1.016" layer="16" thermals="no">
+<vertex x="51.4858" y="45.466"/>
+<vertex x="51.4858" y="25.273"/>
+<vertex x="69.723" y="25.273"/>
+<vertex x="69.723" y="45.466"/>
+</polygon>
+<via x="52.197" y="34.2392" extent="1-16" drill="0.35"/>
+<via x="56.4642" y="34.036" extent="1-16" drill="0.35"/>
+<via x="53.8226" y="32.9946" extent="1-16" drill="0.35"/>
+<via x="56.9722" y="33.0962" extent="1-16" drill="0.35"/>
+<via x="59.0296" y="29.21" extent="1-16" drill="0.35"/>
+<via x="58.9534" y="27.432" extent="1-16" drill="0.35"/>
+<via x="56.1086" y="28.448" extent="1-16" drill="0.35"/>
+<via x="53.1622" y="28.3718" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND">
 <contactref element="LUMENIER_ESC" pad="GND"/>
-<polygon width="1.016" layer="1" thermals="no">
-<vertex x="31.496" y="42.6974"/>
-<vertex x="50.1142" y="42.6974"/>
-<vertex x="50.1142" y="29.9212"/>
-<vertex x="48.2092" y="28.0162"/>
-<vertex x="39.751" y="28.0162"/>
-<vertex x="39.751" y="35.2044"/>
-<vertex x="31.496" y="35.2044"/>
-</polygon>
-<polygon width="1.016" layer="16" thermals="no">
-<vertex x="31.5468" y="42.926"/>
-<vertex x="31.5468" y="9.2202"/>
-<vertex x="63.246" y="9.2202"/>
-<vertex x="63.246" y="23.9522"/>
-<vertex x="50.0126" y="23.9522"/>
-<vertex x="50.0126" y="42.926"/>
-</polygon>
-<via x="42.3418" y="31.75" extent="1-16" drill="0.35"/>
-<via x="42.8498" y="29.464" extent="1-16" drill="0.35"/>
-<via x="40.5892" y="29.6164" extent="1-16" drill="0.35"/>
-<via x="46.0502" y="28.702" extent="1-16" drill="0.35"/>
-<via x="40.9194" y="31.877" extent="1-16" drill="0.35"/>
-<via x="43.815" y="34.29" extent="1-16" drill="0.35"/>
-<via x="46.3042" y="33.274" extent="1-16" drill="0.35"/>
-<via x="48.641" y="33.782" extent="1-16" drill="0.35"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@1"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@2"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@3"/>
@@ -896,6 +876,26 @@ design rules under a new name.</description>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@10"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@11"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@12"/>
+<polygon width="1.016" layer="1" thermals="no">
+<vertex x="31.496" y="42.6974"/>
+<vertex x="50.1142" y="42.6974"/>
+<vertex x="50.1142" y="24.9428"/>
+<vertex x="31.496" y="24.9428"/>
+</polygon>
+<polygon width="1.016" layer="16" thermals="no">
+<vertex x="31.5468" y="42.926"/>
+<vertex x="31.5468" y="24.9936"/>
+<vertex x="50.0126" y="24.9936"/>
+<vertex x="50.0126" y="42.926"/>
+</polygon>
+<via x="42.3418" y="31.75" extent="1-16" drill="0.35"/>
+<via x="42.8498" y="29.464" extent="1-16" drill="0.35"/>
+<via x="40.5892" y="29.6164" extent="1-16" drill="0.35"/>
+<via x="46.0502" y="28.702" extent="1-16" drill="0.35"/>
+<via x="40.9194" y="31.877" extent="1-16" drill="0.35"/>
+<via x="43.815" y="34.29" extent="1-16" drill="0.35"/>
+<via x="46.3042" y="33.274" extent="1-16" drill="0.35"/>
+<via x="48.641" y="33.782" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
