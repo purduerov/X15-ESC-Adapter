@@ -783,7 +783,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <wire x1="218.44" y1="119.38" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<label x="218.44" y="111.76" size="1.778" layer="95" rot="R270"/>
+<label x="218.44" y="106.68" size="1.778" layer="95" rot="R270"/>
 <pinref part="BACKPLANE_CONNECTIONS" gate="G$1" pin="GND"/>
 </segment>
 </net>
