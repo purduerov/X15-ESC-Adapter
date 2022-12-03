@@ -362,7 +362,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="477">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -370,13 +370,89 @@ die meisten Anwendungen passen. Sollte ihre Platine
 besondere Anforderungen haben, treffen Sie die erforderlichen
 Einstellungen hier und speichern die Design Rules unter 
 einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<description language="en">description[de] = &lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+Die Standard-Design-Rules sind so gewÃ¤hlt, dass sie fÃ¼r 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.
+description[en] = &lt;b&gt;ECE 402/477 Design Rules Version 2&lt;/b&gt;
+&lt;p&gt;
+These are the design rules to use for Purdue University electrical and computer engineering senior design PCBs.
+&lt;/p&gt; 
+&lt;p&gt;
+Please make sure your boards conform to these design rules.
+&lt;/p&gt;
+
+layerSetup = (1*16)
+mtCopper = 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm
+mtIsolate = 1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm
+mdWireWire = 8mil
+mdWirePad = 8mil
+mdWireVia = 8mil
+mdPadPad = 6mil
+mdPadVia = 8mil
+mdViaVia = 8mil
+mdSmdPad = 6mil
+mdSmdVia = 6mil
+mdSmdSmd = 6mil
+mdViaViaSameLayer = 8mil
+mnLayersViaInSmd = 2
+mdCopperDimension = 15mil
+mdDrill = 8mil
+mdSmdStop = 0mil
+msWidth = 8mil
+msDrill = 13mil
+msMicroVia = 13mil
+msBlindViaRatio = 0.500000
+rvPadTop = 0.250000
+rvPadInner = 0.250000
+rvPadBottom = 0.250000
+rvViaOuter = 0.250000
+rvViaInner = 0.250000
+rvMicroViaOuter = 0.250000
+rvMicroViaInner = 0.250000
+rlMinPadTop = 7mil
+rlMaxPadTop = 20mil
+rlMinPadInner = 7mil
+rlMaxPadInner = 20mil
+rlMinPadBottom = 7mil
+rlMaxPadBottom = 20mil
+rlMinViaOuter = 7mil
+rlMaxViaOuter = 20mil
+rlMinViaInner = 7mil
+rlMaxViaInner = 20mil
+rlMinMicroViaOuter = 4mil
+rlMaxMicroViaOuter = 20mil
+rlMinMicroViaInner = 4mil
+rlMaxMicroViaInner = 20mil
+psTop = -1
+psBottom = -1
+psFirst = -1
+psElongationLong = 100
+psElongationOffset = 100
+mvStopFrame = 1.000000
+mvCreamFrame = 0.000000
+mlMinStopFrame = 3mil
+mlMaxStopFrame = 3mil
+mlMinCreamFrame = 0mil
+mlMaxCreamFrame = 0mil
+mlViaStopLimit = 0mil
+srRoundness = 0.000000
+srMinRoundness = 0mil
+srMaxRoundness = 0mil
+slThermalIsolate = 10mil
+slThermalsForVias = 0
+dpMaxLengthDifference = 10mm
+dpGapFactor = 2.500000
+checkGrid = 0
+checkAngle = 0
+checkFont = 1
+checkRestrict = 1
+useDiameter = 13
+maxErrors = 50
+</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
@@ -391,7 +467,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="15mil"/>
+<param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -574,13 +650,13 @@ design rules under a new name.</description>
 <signal name="ESC3_R">
 <contactref element="LUMENIER_ESC" pad="10"/>
 <contactref element="J3" pad="3"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="103.1494" y="24.4602"/>
 <vertex x="76.6064" y="24.4602"/>
 <vertex x="76.6064" y="17.272"/>
 <vertex x="103.1494" y="17.272"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="76.6064" y="24.511"/>
 <vertex x="76.6064" y="17.2974"/>
 <vertex x="104.8766" y="17.2974"/>
@@ -594,13 +670,13 @@ design rules under a new name.</description>
 <signal name="ESC3_Y">
 <contactref element="J3" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="11"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="76.7588" y="28.5496"/>
 <vertex x="102.743" y="28.5496"/>
 <vertex x="102.743" y="25.7302"/>
 <vertex x="76.7588" y="25.7302"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="76.708" y="28.5242"/>
 <vertex x="76.708" y="25.7302"/>
 <vertex x="103.0986" y="25.7302"/>
@@ -614,7 +690,7 @@ design rules under a new name.</description>
 <signal name="ESC3_B">
 <contactref element="LUMENIER_ESC" pad="12"/>
 <contactref element="J3" pad="1"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="71.374" y="42.4434"/>
 <vertex x="71.374" y="32.7914"/>
 <vertex x="77.0636" y="32.7914"/>
@@ -622,7 +698,7 @@ design rules under a new name.</description>
 <vertex x="103.2256" y="29.845"/>
 <vertex x="103.2256" y="42.4434"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="71.2724" y="43.1292"/>
 <vertex x="71.2724" y="32.893"/>
 <vertex x="77.0382" y="32.893"/>
@@ -642,13 +718,13 @@ design rules under a new name.</description>
 <signal name="ESC4_R">
 <contactref element="LUMENIER_ESC" pad="7"/>
 <contactref element="J4" pad="3"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="76.6572" y="3.8354"/>
 <vertex x="103.886" y="3.8354"/>
 <vertex x="103.886" y="-2.286"/>
 <vertex x="76.6572" y="-2.286"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="76.6318" y="3.8608"/>
 <vertex x="76.6318" y="-2.1336"/>
 <vertex x="105.283" y="-2.1336"/>
@@ -662,13 +738,13 @@ design rules under a new name.</description>
 <signal name="ESC4_Y">
 <contactref element="J4" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="8"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="76.572534375" y="8.2042"/>
 <vertex x="76.572534375" y="5.08"/>
 <vertex x="103.8352" y="5.08"/>
 <vertex x="103.8352" y="8.2042"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="76.6064" y="8.3058"/>
 <vertex x="76.6064" y="5.0292"/>
 <vertex x="105.1052" y="5.0292"/>
@@ -682,13 +758,13 @@ design rules under a new name.</description>
 <signal name="ESC4_B">
 <contactref element="LUMENIER_ESC" pad="9"/>
 <contactref element="J4" pad="1"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="103.632" y="15.9258"/>
 <vertex x="103.632" y="9.5504"/>
 <vertex x="76.6572" y="9.5504"/>
 <vertex x="76.6572" y="15.9258"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="76.6572" y="15.9766"/>
 <vertex x="76.6572" y="9.6012"/>
 <vertex x="104.7496" y="9.6012"/>
@@ -702,7 +778,7 @@ design rules under a new name.</description>
 <signal name="ESC1_B">
 <contactref element="J1" pad="3"/>
 <contactref element="LUMENIER_ESC" pad="1"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="-0.6604" y="42.0116"/>
 <vertex x="-0.6604" y="30.5816"/>
 <vertex x="23.622" y="30.5816"/>
@@ -710,7 +786,7 @@ design rules under a new name.</description>
 <vertex x="29.718" y="33.8328"/>
 <vertex x="29.718" y="42.0116"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="-0.9652" y="42.291"/>
 <vertex x="29.6164" y="42.291"/>
 <vertex x="29.6164" y="34.0106"/>
@@ -730,13 +806,13 @@ design rules under a new name.</description>
 <signal name="ESC2_R">
 <contactref element="J2" pad="1"/>
 <contactref element="LUMENIER_ESC" pad="6"/>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="-3.302" y="4.0132"/>
 <vertex x="-3.302" y="-1.0668"/>
 <vertex x="24.9428" y="-1.0668"/>
 <vertex x="24.9428" y="4.0132"/>
 </polygon>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="-2.794" y="3.9116"/>
 <vertex x="-2.794" y="-1.7018"/>
 <vertex x="24.9936" y="-1.7018"/>
@@ -750,13 +826,13 @@ design rules under a new name.</description>
 <signal name="ESC2_Y">
 <contactref element="J2" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="5"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="-1.1176" y="8.8646"/>
 <vertex x="-1.1176" y="5.1308"/>
 <vertex x="24.6126" y="5.1308"/>
 <vertex x="24.6126" y="8.8646"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="24.5872" y="8.89"/>
 <vertex x="24.5872" y="5.1816"/>
 <vertex x="-3.0226" y="5.1816"/>
@@ -770,13 +846,13 @@ design rules under a new name.</description>
 <signal name="ESC2_B">
 <contactref element="J2" pad="3"/>
 <contactref element="LUMENIER_ESC" pad="4"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="-1.8796" y="16.4338"/>
 <vertex x="-1.8796" y="10.16"/>
 <vertex x="24.4602" y="10.16"/>
 <vertex x="24.4602" y="16.4338"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="-2.7178" y="16.5608"/>
 <vertex x="-2.7178" y="10.2362"/>
 <vertex x="24.4602" y="10.2362"/>
@@ -790,13 +866,13 @@ design rules under a new name.</description>
 <signal name="ESC1_R">
 <contactref element="J1" pad="1"/>
 <contactref element="LUMENIER_ESC" pad="3"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="-1.087178125" y="24.12386875"/>
 <vertex x="24.4094" y="24.12386875"/>
 <vertex x="24.4094" y="17.6784"/>
 <vertex x="-1.087178125" y="17.6784"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="-2.4892" y="24.2062"/>
 <vertex x="-2.4892" y="17.7292"/>
 <vertex x="24.4602" y="17.7292"/>
@@ -810,13 +886,13 @@ design rules under a new name.</description>
 <signal name="ESC1_Y">
 <contactref element="J1" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="2"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="-2.2098" y="29.2608"/>
 <vertex x="24.3078" y="29.2608"/>
 <vertex x="24.3078" y="25.3746"/>
 <vertex x="-2.2098" y="25.3746"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="-2.3622" y="29.464"/>
 <vertex x="-2.3622" y="25.4254"/>
 <vertex x="24.3332" y="25.4254"/>
@@ -841,13 +917,13 @@ design rules under a new name.</description>
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@11"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@12"/>
 <contactref element="LUMENIER_ESC" pad="VIN"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="51.5874" y="44.323"/>
 <vertex x="51.5874" y="25.146"/>
 <vertex x="69.7992" y="25.146"/>
 <vertex x="69.7992" y="44.323"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="51.4858" y="45.466"/>
 <vertex x="51.4858" y="25.273"/>
 <vertex x="69.723" y="25.273"/>
@@ -876,13 +952,13 @@ design rules under a new name.</description>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@10"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@11"/>
 <contactref element="BACKPLANE_CONNECTIONS" pad="GND@12"/>
-<polygon width="1.016" layer="1" thermals="no">
+<polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
 <vertex x="31.496" y="42.6974"/>
 <vertex x="50.1142" y="42.6974"/>
 <vertex x="50.1142" y="24.9428"/>
 <vertex x="31.496" y="24.9428"/>
 </polygon>
-<polygon width="1.016" layer="16" thermals="no">
+<polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
 <vertex x="31.5468" y="42.926"/>
 <vertex x="31.5468" y="24.9936"/>
 <vertex x="50.0126" y="24.9936"/>
