@@ -662,10 +662,18 @@ maxErrors = 50
 <vertex x="104.8766" y="17.2974"/>
 <vertex x="104.8766" y="24.511"/>
 </polygon>
-<wire x1="73.813" y1="19.988" x2="75.2506" y2="21.2598" width="2.54" layer="1"/>
-<wire x1="75.2506" y1="21.2598" x2="78.5114" y2="21.2598" width="2.54" layer="1"/>
-<wire x1="73.813" y1="19.988" x2="75.3522" y2="21.3614" width="2.54" layer="16"/>
-<wire x1="75.3522" y1="21.3614" x2="78.3082" y2="21.3614" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="73.8378" y="18.8722"/>
+<vertex x="80.5688" y="18.8722"/>
+<vertex x="80.5688" y="20.955"/>
+<vertex x="73.8378" y="20.955"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="73.8632" y="18.923"/>
+<vertex x="80.5942" y="18.923"/>
+<vertex x="80.5942" y="21.0058"/>
+<vertex x="73.8632" y="21.0058"/>
+</polygon>
 </signal>
 <signal name="ESC3_Y">
 <contactref element="J3" pad="2"/>
@@ -682,10 +690,18 @@ maxErrors = 50
 <vertex x="103.0986" y="25.7302"/>
 <vertex x="103.0986" y="28.5242"/>
 </polygon>
-<wire x1="73.813" y1="25.558" x2="75.5734" y2="27.1526" width="2.54" layer="1"/>
-<wire x1="75.5734" y1="27.1526" x2="78.4098" y2="27.1526" width="2.54" layer="1"/>
-<wire x1="73.813" y1="25.558" x2="75.6496" y2="27.2288" width="2.54" layer="16"/>
-<wire x1="75.6496" y1="27.2288" x2="78.3082" y2="27.2288" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="73.8632" y="25.2984"/>
+<vertex x="80.5942" y="25.2984"/>
+<vertex x="80.5942" y="27.3812"/>
+<vertex x="73.8632" y="27.3812"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="73.787" y="25.2984"/>
+<vertex x="80.7212" y="25.2984"/>
+<vertex x="80.7212" y="27.3812"/>
+<vertex x="73.787" y="27.3812"/>
+</polygon>
 </signal>
 <signal name="ESC3_B">
 <contactref element="LUMENIER_ESC" pad="12"/>
@@ -706,14 +722,30 @@ maxErrors = 50
 <vertex x="103.3272" y="29.8196"/>
 <vertex x="103.3272" y="43.1292"/>
 </polygon>
-<wire x1="73.813" y1="31.128" x2="75.0834" y2="32.2326" width="2.54" layer="1"/>
-<wire x1="75.0834" y1="32.2326" x2="77.1144" y2="32.2326" width="2.54" layer="1"/>
-<wire x1="73.813" y1="31.128" x2="75.0326" y2="32.1818" width="2.54" layer="16"/>
-<wire x1="75.0326" y1="32.1818" x2="77.1144" y2="32.1818" width="2.54" layer="16"/>
-<wire x1="73.813" y1="31.128" x2="73.813" y2="36.2198" width="2.54" layer="1"/>
-<wire x1="73.813" y1="36.2198" x2="73.8124" y2="36.2204" width="2.54" layer="1"/>
-<wire x1="73.813" y1="31.128" x2="73.813" y2="36.169" width="2.54" layer="16"/>
-<wire x1="73.813" y1="36.169" x2="73.7616" y2="36.2204" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="73.8124" y="29.3878"/>
+<vertex x="80.5434" y="29.3878"/>
+<vertex x="80.5434" y="33.5788"/>
+<vertex x="73.8124" y="33.5788"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="73.7108" y="29.4132"/>
+<vertex x="80.4418" y="29.4132"/>
+<vertex x="80.4418" y="33.3248"/>
+<vertex x="73.7108" y="33.3248"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="74.6252" y="31.0896"/>
+<vertex x="74.6252" y="37.8206"/>
+<vertex x="72.8726" y="37.8206"/>
+<vertex x="72.8726" y="31.0896"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="74.8284" y="30.988"/>
+<vertex x="74.8284" y="37.719"/>
+<vertex x="72.9234" y="37.719"/>
+<vertex x="72.9234" y="30.988"/>
+</polygon>
 </signal>
 <signal name="ESC4_R">
 <contactref element="LUMENIER_ESC" pad="7"/>
@@ -730,30 +762,46 @@ maxErrors = 50
 <vertex x="105.283" y="-2.1336"/>
 <vertex x="105.283" y="3.8608"/>
 </polygon>
-<wire x1="73.813" y1="3.288" x2="77.3404" y2="2.9692" width="2.54" layer="1"/>
-<wire x1="77.3404" y1="2.9692" x2="77.4192" y2="3.048" width="2.54" layer="1"/>
-<wire x1="73.813" y1="3.288" x2="77.5436" y2="2.9692" width="2.54" layer="16"/>
-<wire x1="77.5436" y1="2.9692" x2="77.5462" y2="2.9718" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="73.6346" y="2.2098"/>
+<vertex x="80.3656" y="2.2098"/>
+<vertex x="80.3656" y="4.2926"/>
+<vertex x="73.6346" y="4.2926"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="73.533" y="2.1844"/>
+<vertex x="80.264" y="2.1844"/>
+<vertex x="80.264" y="4.2672"/>
+<vertex x="73.533" y="4.2672"/>
+</polygon>
 </signal>
 <signal name="ESC4_Y">
 <contactref element="J4" pad="2"/>
 <contactref element="LUMENIER_ESC" pad="8"/>
 <polygon width="1.016" layer="1" isolate="0.2032" thermals="no">
-<vertex x="76.572534375" y="8.2042"/>
+<vertex x="76.572534375" y="8.382"/>
 <vertex x="76.572534375" y="5.08"/>
 <vertex x="103.8352" y="5.08"/>
-<vertex x="103.8352" y="8.2042"/>
+<vertex x="103.8352" y="8.382"/>
 </polygon>
 <polygon width="1.016" layer="16" isolate="0.2032" thermals="no">
-<vertex x="76.6064" y="8.3058"/>
+<vertex x="76.6064" y="8.4074"/>
 <vertex x="76.6064" y="5.0292"/>
 <vertex x="105.1052" y="5.0292"/>
-<vertex x="105.1052" y="8.3058"/>
+<vertex x="105.1052" y="8.4074"/>
 </polygon>
-<wire x1="73.813" y1="8.858" x2="76.194" y2="6.477" width="2.54" layer="1"/>
-<wire x1="76.194" y1="6.477" x2="78.3844" y2="6.477" width="2.54" layer="1"/>
-<wire x1="73.813" y1="8.858" x2="76.1432" y2="6.5278" width="2.54" layer="16"/>
-<wire x1="76.1432" y1="6.5278" x2="78.4352" y2="6.5278" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="73.7616" y="6.5278"/>
+<vertex x="81.0006" y="6.5278"/>
+<vertex x="81.0006" y="8.8392"/>
+<vertex x="73.7616" y="8.8392"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="73.6346" y="6.5786"/>
+<vertex x="81.026" y="6.5786"/>
+<vertex x="81.026" y="8.8138"/>
+<vertex x="73.6346" y="8.8138"/>
+</polygon>
 </signal>
 <signal name="ESC4_B">
 <contactref element="LUMENIER_ESC" pad="9"/>
@@ -770,10 +818,18 @@ maxErrors = 50
 <vertex x="104.7496" y="9.6012"/>
 <vertex x="104.7496" y="15.9766"/>
 </polygon>
-<wire x1="73.813" y1="14.428" x2="74.7898" y2="12.9794" width="2.54" layer="1"/>
-<wire x1="74.7898" y1="12.9794" x2="78.7908" y2="12.9794" width="2.54" layer="1"/>
-<wire x1="73.813" y1="14.428" x2="74.739" y2="13.0302" width="2.54" layer="16"/>
-<wire x1="74.739" y1="13.0302" x2="78.6638" y2="13.0302" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="73.8124" y="13.208"/>
+<vertex x="80.5434" y="13.208"/>
+<vertex x="80.5434" y="15.2908"/>
+<vertex x="73.8124" y="15.2908"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="73.8378" y="13.2588"/>
+<vertex x="80.5688" y="13.2588"/>
+<vertex x="80.5688" y="15.3416"/>
+<vertex x="73.8378" y="15.3416"/>
+</polygon>
 </signal>
 <signal name="ESC1_B">
 <contactref element="J1" pad="3"/>
@@ -794,14 +850,30 @@ maxErrors = 50
 <vertex x="23.2664" y="30.7086"/>
 <vertex x="-0.9652" y="30.7086"/>
 </polygon>
-<wire x1="27.813" y1="31.128" x2="26.008" y2="32.4612" width="2.54" layer="1"/>
-<wire x1="26.008" y1="32.4612" x2="22.7584" y2="32.4612" width="2.54" layer="1"/>
-<wire x1="27.813" y1="31.128" x2="26.4798" y2="32.4612" width="2.54" layer="16"/>
-<wire x1="26.4798" y1="32.4612" x2="22.733" y2="32.4612" width="2.54" layer="16"/>
-<wire x1="27.813" y1="31.128" x2="27.813" y2="35.306" width="2.54" layer="1"/>
-<wire x1="27.813" y1="35.306" x2="27.9146" y2="35.4076" width="2.54" layer="1"/>
-<wire x1="27.813" y1="31.128" x2="27.813" y2="35.6616" width="2.54" layer="16"/>
-<wire x1="27.813" y1="35.6616" x2="27.8638" y2="35.7124" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="20.8534" y="30.3276"/>
+<vertex x="27.5844" y="30.3276"/>
+<vertex x="27.5844" y="34.3408"/>
+<vertex x="20.8534" y="34.3408"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="20.7518" y="30.1752"/>
+<vertex x="27.4828" y="30.1752"/>
+<vertex x="27.4828" y="34.0868"/>
+<vertex x="20.7518" y="34.0868"/>
+</polygon>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="28.6258" y="31.2166"/>
+<vertex x="28.6258" y="37.9476"/>
+<vertex x="26.8732" y="37.9476"/>
+<vertex x="26.8732" y="31.2166"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="28.6766" y="31.115"/>
+<vertex x="28.6766" y="37.846"/>
+<vertex x="27.0764" y="37.846"/>
+<vertex x="27.0764" y="31.115"/>
+</polygon>
 </signal>
 <signal name="ESC2_R">
 <contactref element="J2" pad="1"/>
@@ -818,10 +890,18 @@ maxErrors = 50
 <vertex x="24.9936" y="-1.7018"/>
 <vertex x="24.9936" y="3.9116"/>
 </polygon>
-<wire x1="27.813" y1="3.288" x2="26.9768" y2="2.286" width="2.54" layer="1"/>
-<wire x1="26.9768" y1="2.286" x2="23.0886" y2="2.286" width="2.54" layer="1"/>
-<wire x1="27.813" y1="3.288" x2="26.9768" y2="2.286" width="2.54" layer="16"/>
-<wire x1="26.9768" y1="2.286" x2="22.8854" y2="2.286" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="21.1582" y="2.6924"/>
+<vertex x="27.8892" y="2.6924"/>
+<vertex x="27.8892" y="4.445"/>
+<vertex x="21.1582" y="4.445"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="21.0058" y="2.5908"/>
+<vertex x="27.7368" y="2.5908"/>
+<vertex x="27.7368" y="4.3434"/>
+<vertex x="21.0058" y="4.3434"/>
+</polygon>
 </signal>
 <signal name="ESC2_Y">
 <contactref element="J2" pad="2"/>
@@ -838,10 +918,18 @@ maxErrors = 50
 <vertex x="-3.0226" y="5.1816"/>
 <vertex x="-3.0226" y="8.89"/>
 </polygon>
-<wire x1="27.813" y1="8.858" x2="26.1058" y2="6.985" width="2.54" layer="1"/>
-<wire x1="26.1058" y1="6.985" x2="23.0886" y2="6.985" width="2.54" layer="1"/>
-<wire x1="27.813" y1="8.858" x2="26.1058" y2="6.985" width="2.54" layer="16"/>
-<wire x1="26.1058" y1="6.985" x2="23.1394" y2="6.985" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="21.082" y="7.5692"/>
+<vertex x="27.813" y="7.5692"/>
+<vertex x="27.813" y="9.3218"/>
+<vertex x="21.082" y="9.3218"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="21.1582" y="7.5438"/>
+<vertex x="27.8892" y="7.5438"/>
+<vertex x="27.8892" y="9.2964"/>
+<vertex x="21.1582" y="9.2964"/>
+</polygon>
 </signal>
 <signal name="ESC2_B">
 <contactref element="J2" pad="3"/>
@@ -858,10 +946,18 @@ maxErrors = 50
 <vertex x="24.4602" y="10.2362"/>
 <vertex x="24.4602" y="16.5608"/>
 </polygon>
-<wire x1="27.813" y1="14.428" x2="26.2508" y2="12.7" width="2.54" layer="1"/>
-<wire x1="26.2508" y1="12.7" x2="20.4216" y2="12.7" width="2.54" layer="1"/>
-<wire x1="27.813" y1="14.428" x2="26.3016" y2="12.7508" width="2.54" layer="16"/>
-<wire x1="26.3016" y1="12.7508" x2="20.4978" y2="12.7508" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="21.209" y="13.6144"/>
+<vertex x="27.94" y="13.6144"/>
+<vertex x="27.94" y="15.367"/>
+<vertex x="21.209" y="15.367"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="21.2598" y="13.5382"/>
+<vertex x="27.9908" y="13.5382"/>
+<vertex x="27.9908" y="15.2908"/>
+<vertex x="21.2598" y="15.2908"/>
+</polygon>
 </signal>
 <signal name="ESC1_R">
 <contactref element="J1" pad="1"/>
@@ -878,10 +974,18 @@ maxErrors = 50
 <vertex x="24.4602" y="17.7292"/>
 <vertex x="24.4602" y="24.2062"/>
 </polygon>
-<wire x1="27.813" y1="19.988" x2="26.2472" y2="21.082" width="2.54" layer="1"/>
-<wire x1="26.2472" y1="21.082" x2="21.9202" y2="21.082" width="2.54" layer="1"/>
-<wire x1="27.813" y1="19.988" x2="26.171" y2="21.1582" width="2.54" layer="16"/>
-<wire x1="26.171" y1="21.1582" x2="21.9456" y2="21.1582" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="21.1582" y="18.7706"/>
+<vertex x="27.7622" y="18.7706"/>
+<vertex x="27.7622" y="21.0312"/>
+<vertex x="21.1582" y="21.0312"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="21.2344" y="18.9738"/>
+<vertex x="27.9654" y="18.9738"/>
+<vertex x="27.9654" y="21.2344"/>
+<vertex x="21.2344" y="21.2344"/>
+</polygon>
 </signal>
 <signal name="ESC1_Y">
 <contactref element="J1" pad="2"/>
@@ -898,10 +1002,18 @@ maxErrors = 50
 <vertex x="24.3332" y="25.4254"/>
 <vertex x="24.3332" y="29.464"/>
 </polygon>
-<wire x1="27.813" y1="25.558" x2="25.8482" y2="27.051" width="2.54" layer="1"/>
-<wire x1="25.8482" y1="27.051" x2="21.8948" y2="27.051" width="2.54" layer="1"/>
-<wire x1="27.813" y1="25.558" x2="25.772" y2="27.1272" width="2.54" layer="16"/>
-<wire x1="25.772" y1="27.1272" x2="21.971" y2="27.1272" width="2.54" layer="16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="21.2344" y="24.9936"/>
+<vertex x="27.9654" y="24.9936"/>
+<vertex x="27.9654" y="27.0764"/>
+<vertex x="21.2344" y="27.0764"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="21.336" y="24.9428"/>
+<vertex x="28.067" y="24.9428"/>
+<vertex x="28.067" y="26.8478"/>
+<vertex x="21.336" y="26.8478"/>
+</polygon>
 </signal>
 <signal name="12V">
 <contactref element="BACKPLANE_CONNECTIONS" pad="12V@1"/>
