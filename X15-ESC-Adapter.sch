@@ -207,25 +207,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="X15-ESC-Adapter">
 <packages>
-<package name="IPBT-103-H1-T-S" urn="urn:adsk.eagle:footprint:37886179/1">
-<pad name="1" x="-4.191" y="0" drill="1.778" diameter="2.54"/>
-<pad name="2" x="0" y="0" drill="1.778" diameter="2.54"/>
-<pad name="3" x="4.191" y="0" drill="1.778" diameter="2.54"/>
-<wire x1="-6.955" y1="13.91" x2="6.955" y2="13.91" width="0.1524" layer="21"/>
-<wire x1="6.955" y1="13.91" x2="6.955" y2="6.955" width="0.1524" layer="21"/>
-<wire x1="6.955" y1="3.75" x2="6.955" y2="0" width="0.1524" layer="21"/>
-<wire x1="-6.955" y1="0" x2="-6.955" y2="6.955" width="0.1524" layer="21"/>
-<wire x1="-6.955" y1="6.955" x2="-6.955" y2="13.91" width="0.1524" layer="21"/>
-<wire x1="6.959784375" y1="3.7503625" x2="6.959784375" y2="3.75186875" width="0.1524" layer="21"/>
-<wire x1="-6.4" y1="-1.6" x2="6.4" y2="-1.6" width="0.1524" layer="21"/>
-<wire x1="-6.4" y1="-1.6" x2="-6.955" y2="-1.6" width="0.1524" layer="21" style="longdash"/>
-<wire x1="-6.955" y1="-1.6" x2="-6.955" y2="0" width="0.1524" layer="21" style="longdash"/>
-<wire x1="6.955" y1="0" x2="6.955" y2="-1.6" width="0.1524" layer="21" style="longdash"/>
-<wire x1="6.955" y1="-1.6" x2="6.4" y2="-1.6" width="0.1524" layer="21" style="longdash"/>
-<wire x1="0" y1="3.75" x2="-6.955" y2="3.75" width="0.1524" layer="21" style="longdash"/>
-<wire x1="-6.955" y1="3.75" x2="-6.955" y2="6.955" width="0.1524" layer="21" style="longdash"/>
-<wire x1="0" y1="3.75" x2="6.955" y2="3.75" width="0.1524" layer="21"/>
-<wire x1="6.955" y1="3.75" x2="6.955" y2="6.955" width="0.1524" layer="21"/>
+<package name="IPBT-103-H1-T-S-RA" urn="urn:adsk.eagle:footprint:38819786/2">
+<pad name="1" x="-4.191" y="-3.7465" drill="1.778" diameter="2.54"/>
+<pad name="2" x="0" y="-3.7465" drill="1.778" diameter="2.54" rot="R180"/>
+<pad name="3" x="4.191" y="-3.7465" drill="1.778" diameter="2.54" rot="R180"/>
+<wire x1="-6.95325" y1="0" x2="6.95325" y2="0" width="0.127" layer="21"/>
+<wire x1="6.95325" y1="0" x2="6.95325" y2="10.287" width="0.127" layer="21"/>
+<wire x1="6.95325" y1="10.287" x2="-6.95325" y2="10.287" width="0.127" layer="21"/>
+<wire x1="-6.95325" y1="10.287" x2="-6.95325" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.9596" y1="10.16" x2="6.9596" y2="10.0838" width="0.127" layer="39"/>
+<wire x1="6.9596" y1="10.0838" x2="6.8834" y2="-5.461" width="0.127" layer="39"/>
+<wire x1="6.8834" y1="-5.461" x2="-7.0358" y2="-5.3848" width="0.127" layer="39"/>
+<wire x1="-7.0358" y1="-5.3848" x2="-6.9596" y2="10.16" width="0.127" layer="39"/>
 </package>
 <package name="LUMENIER" urn="urn:adsk.eagle:footprint:37886184/1">
 <wire x1="46" y1="0" x2="46" y2="33.4" width="0.127" layer="21"/>
@@ -362,9 +355,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="LUMENIER"/>
 </packageinstances>
 </package3d>
-<package3d name="IPBT-103-H1-T-S" urn="urn:adsk.eagle:package:37886187/2" type="model">
+<package3d name="IPBD-03-S-K" urn="urn:adsk.eagle:package:38819791/3" type="model">
 <packageinstances>
-<packageinstance name="IPBT-103-H1-T-S"/>
+<packageinstance name="IPBT-103-H1-T-S-RA"/>
 </packageinstances>
 </package3d>
 <package3d name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:package:38090775/2" type="model">
@@ -374,15 +367,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="IPBT-103-H1-T-S">
-<pin name="3" x="-5.08" y="2.54" length="middle"/>
-<pin name="2" x="-5.08" y="5.08" length="middle"/>
-<pin name="1" x="-5.08" y="7.62" length="middle"/>
-<wire x1="0" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="0" y1="10.16" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
-<text x="0" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<symbol name="IPBT-103-H1-T-S-RA">
+<pin name="1" x="-10.16" y="5.08" length="middle" swaplevel="1"/>
+<pin name="2" x="-10.16" y="2.54" length="middle" swaplevel="1"/>
+<pin name="3" x="-10.16" y="0" length="middle" swaplevel="1"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="LUMENIER">
 <pin name="M2P2" x="-5.08" y="5.08" length="middle"/>
@@ -422,19 +415,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IPBT-103-H1-T-S">
+<deviceset name="IBPT-103-H1-T-S-RA">
 <gates>
-<gate name="G$1" symbol="IPBT-103-H1-T-S" x="0" y="0"/>
+<gate name="G$1" symbol="IPBT-103-H1-T-S-RA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IPBT-103-H1-T-S">
+<device name="" package="IPBT-103-H1-T-S-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37886187/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38819791/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -555,10 +548,10 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="J4" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
-<part name="J3" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
-<part name="J2" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
-<part name="J1" library="X15-ESC-Adapter" deviceset="IPBT-103-H1-T-S" device="" package3d_urn="urn:adsk.eagle:package:37886187/2"/>
+<part name="J4" library="X15-ESC-Adapter" deviceset="IBPT-103-H1-T-S-RA" device="" package3d_urn="urn:adsk.eagle:package:38819791/3"/>
+<part name="J3" library="X15-ESC-Adapter" deviceset="IBPT-103-H1-T-S-RA" device="" package3d_urn="urn:adsk.eagle:package:38819791/3"/>
+<part name="J2" library="X15-ESC-Adapter" deviceset="IBPT-103-H1-T-S-RA" device="" package3d_urn="urn:adsk.eagle:package:38819791/3"/>
+<part name="J1" library="X15-ESC-Adapter" deviceset="IBPT-103-H1-T-S-RA" device="" package3d_urn="urn:adsk.eagle:package:38819791/3"/>
 <part name="LUMENIER_ESC" library="X15-ESC-Adapter" deviceset="LUMENIER" device="" package3d_urn="urn:adsk.eagle:package:37886188/1"/>
 <part name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" deviceset="IPS1-112-01-L-D" device="" package3d_urn="urn:adsk.eagle:package:38090775/2"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -577,17 +570,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="LAST_DATE_TIME" x="184.15" y="8.89" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="198.12" y="3.81" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="J4" gate="G$1" x="83.82" y="81.28" smashed="yes">
-<attribute name="NAME" x="83.82" y="91.44" size="1.778" layer="95"/>
+<instance part="J4" gate="G$1" x="88.9" y="83.82" smashed="yes">
+<attribute name="NAME" x="88.9" y="93.98" size="1.778" layer="95"/>
 </instance>
-<instance part="J3" gate="G$1" x="83.82" y="96.52" smashed="yes">
-<attribute name="NAME" x="83.82" y="106.68" size="1.778" layer="95"/>
+<instance part="J3" gate="G$1" x="88.9" y="99.06" smashed="yes">
+<attribute name="NAME" x="88.9" y="109.22" size="1.778" layer="95"/>
 </instance>
-<instance part="J2" gate="G$1" x="106.68" y="81.28" smashed="yes" rot="MR0">
-<attribute name="NAME" x="106.68" y="91.44" size="1.778" layer="95" rot="MR0"/>
+<instance part="J2" gate="G$1" x="101.6" y="83.82" smashed="yes" rot="MR0">
+<attribute name="NAME" x="101.6" y="93.98" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J1" gate="G$1" x="106.68" y="96.52" smashed="yes" rot="MR0">
-<attribute name="NAME" x="106.68" y="106.68" size="1.778" layer="95" rot="MR0"/>
+<instance part="J1" gate="G$1" x="101.6" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="101.6" y="109.22" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="LUMENIER_ESC" gate="G$1" x="152.4" y="91.44" smashed="yes">
 <attribute name="NAME" x="152.4" y="111.76" size="1.778" layer="95"/>
