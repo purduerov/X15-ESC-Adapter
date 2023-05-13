@@ -207,27 +207,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="X15-ESC-Adapter">
 <packages>
-<package name="IPBT-103-H1-T-S-RA" urn="urn:adsk.eagle:footprint:38819786/2">
-<pad name="1" x="-4.191" y="-3.7465" drill="1.778" diameter="2.54"/>
-<pad name="2" x="0" y="-3.7465" drill="1.778" diameter="2.54" rot="R180"/>
-<pad name="3" x="4.191" y="-3.7465" drill="1.778" diameter="2.54" rot="R180"/>
-<wire x1="-6.95325" y1="0" x2="6.95325" y2="0" width="0.127" layer="21"/>
-<wire x1="6.95325" y1="0" x2="6.95325" y2="10.287" width="0.127" layer="21"/>
-<wire x1="6.95325" y1="10.287" x2="-6.95325" y2="10.287" width="0.127" layer="21"/>
-<wire x1="-6.95325" y1="10.287" x2="-6.95325" y2="0" width="0.127" layer="21"/>
-<wire x1="-6.9596" y1="10.16" x2="6.9596" y2="10.0838" width="0.127" layer="39"/>
-<wire x1="6.9596" y1="10.0838" x2="6.8834" y2="-5.461" width="0.127" layer="39"/>
-<wire x1="6.8834" y1="-5.461" x2="-7.0358" y2="-5.3848" width="0.127" layer="39"/>
-<wire x1="-7.0358" y1="-5.3848" x2="-6.9596" y2="10.16" width="0.127" layer="39"/>
-</package>
-<package name="LUMENIER" urn="urn:adsk.eagle:footprint:37886184/1">
+<package name="LUMENIER" urn="urn:adsk.eagle:footprint:37886184/1" locally_modified="yes">
 <wire x1="46" y1="0" x2="46" y2="33.4" width="0.127" layer="21"/>
 <wire x1="0" y1="33.4" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="12.38" y2="0" width="0.127" layer="21"/>
 <wire x1="12.38" y1="0" x2="15.05" y2="2.7" width="0.127" layer="21"/>
-<wire x1="15.05" y1="2.7" x2="16.51" y2="2.7" width="0.127" layer="21"/>
-<wire x1="16.51" y1="2.7" x2="27.94" y2="2.7" width="0.127" layer="21"/>
-<wire x1="27.94" y1="2.7" x2="30.95" y2="2.7" width="0.127" layer="21"/>
+<wire x1="15.05" y1="2.7" x2="30.95" y2="2.7" width="0.127" layer="21"/>
 <wire x1="30.95" y1="2.7" x2="33.62" y2="0" width="0.127" layer="21"/>
 <wire x1="33.62" y1="0" x2="46" y2="0" width="0.127" layer="21"/>
 <wire x1="16.51" y1="2.7" x2="16.51" y2="5.24" width="0.127" layer="51"/>
@@ -235,9 +220,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.94" y1="5.24" x2="27.94" y2="2.7" width="0.127" layer="51"/>
 <wire x1="0" y1="33.4" x2="13.97" y2="33.4" width="0.127" layer="21"/>
 <wire x1="13.97" y1="33.4" x2="16.08" y2="31.39" width="0.127" layer="21"/>
-<wire x1="16.08" y1="31.39" x2="16.77" y2="31.39" width="0.127" layer="21"/>
-<wire x1="16.77" y1="31.39" x2="20.25" y2="31.39" width="0.127" layer="21"/>
-<wire x1="20.25" y1="31.39" x2="29.93" y2="31.39" width="0.127" layer="21"/>
+<wire x1="16.08" y1="31.39" x2="29.93" y2="31.39" width="0.127" layer="21"/>
 <wire x1="29.93" y1="31.39" x2="31.98" y2="33.4" width="0.127" layer="21"/>
 <wire x1="31.98" y1="33.4" x2="46" y2="33.4" width="0.127" layer="21"/>
 <wire x1="25.74" y1="31.39" x2="29.23" y2="31.39" width="0.127" layer="51" curve="180"/>
@@ -276,8 +259,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="33.71" y1="21.54" x2="33.71" y2="8.44" width="0.127" layer="51"/>
 <text x="1.27" y="33.02" size="1.27" layer="21">&gt;NAME</text>
 <text x="17.78" y="2.7" size="1.27" layer="51">JST CONN</text>
-<smd name="GND" x="18.51" y="30.37" dx="4" dy="2" layer="1"/>
-<smd name="VIN" x="27.49" y="30.37" dx="4" dy="2" layer="1"/>
+<smd name="GND" x="18.51" y="31.132" dx="4" dy="3.556" layer="1"/>
+<smd name="VIN" x="27.49" y="31.132" dx="4" dy="3.556" layer="1"/>
 <pad name="6" x="0" y="2.78" drill="3.5" diameter="4.8" shape="octagon"/>
 <pad name="5" x="0" y="8.35" drill="3.5" diameter="4.8" shape="octagon"/>
 <pad name="4" x="0" y="13.92" drill="3.5" diameter="4.8" shape="octagon"/>
@@ -300,11 +283,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <hole x="0" y="0" drill="3.81"/>
 </package>
-<package name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:footprint:38090769/1">
-<pad name="GND@1" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@2" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@3" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@4" x="47.244" y="36.322" drill="1.016" diameter="1.8796"/>
+<package name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:footprint:38090769/1" locally_modified="yes">
+<pad name="NC@2" x="49.784" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="NC@6" x="49.784" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="NC@1" x="47.244" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="NC@5" x="47.244" y="36.322" drill="1.016" diameter="1.8796"/>
 <pad name="GND@5" x="44.704" y="38.862" drill="1.016" diameter="1.8796"/>
 <pad name="GND@6" x="44.704" y="36.322" drill="1.016" diameter="1.8796"/>
 <pad name="GND@7" x="42.164" y="38.862" drill="1.016" diameter="1.8796"/>
@@ -321,10 +304,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="12V@6" x="59.944" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="12V@7" x="57.404" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="12V@8" x="57.404" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@9" x="54.864" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@10" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@11" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12V@12" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="NC@8" x="54.864" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="NC@4" x="54.864" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="NC@7" x="52.324" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="NC@3" x="52.324" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
 <wire x1="0" y1="0" x2="101.6" y2="0" width="0" layer="51"/>
 <wire x1="101.6" y1="0" x2="101.6" y2="41.148" width="0" layer="51"/>
 <wire x1="101.6" y1="41.148" x2="0" y2="41.148" width="0" layer="51"/>
@@ -355,11 +338,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="LUMENIER"/>
 </packageinstances>
 </package3d>
-<package3d name="IPBD-03-S-K" urn="urn:adsk.eagle:package:38819791/3" type="model">
-<packageinstances>
-<packageinstance name="IPBT-103-H1-T-S-RA"/>
-</packageinstances>
-</package3d>
 <package3d name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR" urn="urn:adsk.eagle:package:38090775/2" type="model">
 <packageinstances>
 <packageinstance name="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR"/>
@@ -367,16 +345,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="IPBT-103-H1-T-S-RA">
-<pin name="1" x="-10.16" y="5.08" length="middle" swaplevel="1"/>
-<pin name="2" x="-10.16" y="2.54" length="middle" swaplevel="1"/>
-<pin name="3" x="-10.16" y="0" length="middle" swaplevel="1"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="LUMENIER">
 <pin name="M2P2" x="-5.08" y="5.08" length="middle"/>
 <pin name="M2P3" x="-5.08" y="2.54" length="middle"/>
@@ -415,26 +383,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IBPT-103-H1-T-S-RA">
-<gates>
-<gate name="G$1" symbol="IPBT-103-H1-T-S-RA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IPBT-103-H1-T-S-RA">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38819791/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LUMENIER">
 <gates>
 <gate name="G$1" symbol="LUMENIER" x="0" y="0"/>
@@ -488,8 +436,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="" package="IPS1-BACKPLANE_ESC_ADAPTER_ESC_PWR">
 <connects>
-<connect gate="G$1" pin="12V" pad="12V@1 12V@2 12V@3 12V@4 12V@5 12V@6 12V@7 12V@8 12V@9 12V@10 12V@11 12V@12"/>
-<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12"/>
+<connect gate="G$1" pin="12V" pad="12V@1 12V@2 12V@3 12V@4 12V@5 12V@6 12V@7 12V@8"/>
+<connect gate="G$1" pin="GND" pad="GND@5 GND@6 GND@7 GND@8 GND@9 GND@10 GND@11 GND@12"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:38090775/2"/>
@@ -548,10 +496,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="J4" library="X15-ESC-Adapter" deviceset="IBPT-103-H1-T-S-RA" device="" package3d_urn="urn:adsk.eagle:package:38819791/3"/>
-<part name="J3" library="X15-ESC-Adapter" deviceset="IBPT-103-H1-T-S-RA" device="" package3d_urn="urn:adsk.eagle:package:38819791/3"/>
-<part name="J2" library="X15-ESC-Adapter" deviceset="IBPT-103-H1-T-S-RA" device="" package3d_urn="urn:adsk.eagle:package:38819791/3"/>
-<part name="J1" library="X15-ESC-Adapter" deviceset="IBPT-103-H1-T-S-RA" device="" package3d_urn="urn:adsk.eagle:package:38819791/3"/>
 <part name="LUMENIER_ESC" library="X15-ESC-Adapter" deviceset="LUMENIER" device="" package3d_urn="urn:adsk.eagle:package:37886188/1"/>
 <part name="BACKPLANE_CONNECTIONS" library="X15-ESC-Adapter" deviceset="IPS1-112-01-L-D" device="" package3d_urn="urn:adsk.eagle:package:38090775/2"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -569,18 +513,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="DRAWING_NAME" x="184.15" y="13.97" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="184.15" y="8.89" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="198.12" y="3.81" size="2.54" layer="94" font="vector"/>
-</instance>
-<instance part="J4" gate="G$1" x="88.9" y="83.82" smashed="yes">
-<attribute name="NAME" x="88.9" y="93.98" size="1.778" layer="95"/>
-</instance>
-<instance part="J3" gate="G$1" x="88.9" y="99.06" smashed="yes">
-<attribute name="NAME" x="88.9" y="109.22" size="1.778" layer="95"/>
-</instance>
-<instance part="J2" gate="G$1" x="101.6" y="83.82" smashed="yes" rot="MR0">
-<attribute name="NAME" x="101.6" y="93.98" size="1.778" layer="95" rot="MR0"/>
-</instance>
-<instance part="J1" gate="G$1" x="101.6" y="99.06" smashed="yes" rot="MR0">
-<attribute name="NAME" x="101.6" y="109.22" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="LUMENIER_ESC" gate="G$1" x="152.4" y="91.44" smashed="yes">
 <attribute name="NAME" x="152.4" y="111.76" size="1.778" layer="95"/>
@@ -617,18 +549,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="182.88" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="185.42" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
-<label x="76.2" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="ESC3_Y" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<label x="76.2" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="M3P2"/>
 <wire x1="182.88" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
@@ -641,11 +563,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="182.88" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
 <label x="185.42" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
-<label x="76.2" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="ESC4_R" class="0">
 <segment>
@@ -653,18 +570,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="182.88" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
 <label x="185.42" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<label x="76.2" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="ESC4_Y" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="76.2" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="M4P2"/>
 <wire x1="182.88" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
@@ -677,18 +584,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="182.88" y1="99.06" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
 <label x="185.42" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
-<label x="76.2" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="ESC1_B" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="99.06" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
-<label x="114.3" y="99.06" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="M1P1"/>
 <wire x1="147.32" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
@@ -697,22 +594,12 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="ESC2_R" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
-<label x="114.3" y="88.9" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="M2P3"/>
 <wire x1="147.32" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
 <label x="144.78" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESC2_Y" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
-<label x="114.3" y="86.36" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="M2P2"/>
 <wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
@@ -721,11 +608,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="ESC2_B" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="114.3" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="M2P1"/>
 <wire x1="147.32" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <label x="144.78" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -733,22 +615,12 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="ESC1_R" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
-<label x="114.3" y="104.14" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="M1P3"/>
 <wire x1="147.32" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
 <label x="144.78" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ESC1_Y" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
-<label x="114.3" y="101.6" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="LUMENIER_ESC" gate="G$1" pin="M1P2"/>
 <wire x1="147.32" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
