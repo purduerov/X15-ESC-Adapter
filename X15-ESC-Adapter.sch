@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -261,18 +275,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="17.78" y="2.7" size="1.27" layer="51">JST CONN</text>
 <smd name="GND" x="18.51" y="31.132" dx="4" dy="3.556" layer="1"/>
 <smd name="VIN" x="27.49" y="31.132" dx="4" dy="3.556" layer="1"/>
-<pad name="6" x="0" y="2.78" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="5" x="0" y="8.35" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="4" x="0" y="13.92" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="3" x="0" y="19.48" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="2" x="0" y="25.05" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="1" x="0" y="30.62" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="7" x="46" y="2.78" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="8" x="46" y="8.35" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="9" x="46" y="13.92" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="10" x="46" y="19.48" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="11" x="46" y="25.05" drill="3.5" diameter="4.8" shape="octagon"/>
-<pad name="12" x="46" y="30.62" drill="3.5" diameter="4.8" shape="octagon"/>
+<pad name="6" x="0" y="2.78" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="5" x="0" y="8.35" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="4" x="0" y="13.92" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="3" x="0" y="19.48" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="2" x="0" y="25.05" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="1" x="0" y="30.62" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="7" x="46" y="2.78" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="8" x="46" y="8.35" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="9" x="46" y="13.92" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="10" x="46" y="19.48" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="11" x="46" y="25.05" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
+<pad name="12" x="46" y="30.62" locked="yes" drill="3.5" diameter="4.8" shape="square"/>
 </package>
 <package name="6-32-HOLE" urn="urn:adsk.eagle:footprint:37886185/1">
 <circle x="0" y="0" radius="3.175" width="0.127" layer="39"/>
@@ -501,8 +515,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="H1" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
 <part name="H2" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
-<part name="H3" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
-<part name="H4" library="X15-ESC-Adapter" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:37886189/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -530,14 +542,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="H2" gate="G$1" x="91.44" y="137.16" smashed="yes">
 <attribute name="NAME" x="91.44" y="139.7" size="1.016" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="91.44" y="134.62" size="1.016" layer="95" align="top-center"/>
-</instance>
-<instance part="H3" gate="G$1" x="83.82" y="129.54" smashed="yes">
-<attribute name="NAME" x="83.82" y="132.08" size="1.016" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="83.82" y="127" size="1.016" layer="95" align="top-center"/>
-</instance>
-<instance part="H4" gate="G$1" x="91.44" y="129.54" smashed="yes">
-<attribute name="NAME" x="91.44" y="132.08" size="1.016" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="91.44" y="127" size="1.016" layer="95" align="top-center"/>
 </instance>
 </instances>
 <busses>
